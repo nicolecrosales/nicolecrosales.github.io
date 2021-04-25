@@ -15,7 +15,7 @@ header {
   margin-left: 50px;
   color: #fbfffe;
 }
-#image {
+.image {
   float: right;
   margin-right: 5em;
   margin-top: -4em;
@@ -94,5 +94,9 @@ footer a:hover {
   header,
   main {
     display: block;
+  }
+  .image {
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }

@@ -1,24 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
 h1,
+h2,
+h3 {
+  font-family: "IBM Plex Serif", serif;
+}
+h1 {
+  font-size: 1.5em;
+}
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-size: 0.7em;
 }
 p {
   font-family: "Montserrat", sans-serif;
 }
 header {
-  font-size: 1.5em;
   height: 150px;
   margin-top: 90px;
   margin-left: 50px;
   color: #fbfffe;
-}
-.image {
-  float: right;
-  margin-right: 5em;
-  margin-top: -4em;
-  border: solid 2px #6d676e;
+  display: block;
 }
 body {
   background-color: #084e53;
@@ -30,11 +29,13 @@ main {
   padding-top: 3em;
   padding-bottom: 3em;
   padding-left: 5em;
+  display: block;
 }
 ul li {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3em;
   line-height: 200%;
+  display: block;
 }
 ul li a {
   font-family: "Montserrat", sans-serif;
@@ -53,8 +54,9 @@ footer {
   background: #1b1b1e;
   color: #6d676e;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  display: block;
 }
 footer h3 {
   font-size: 2em;
@@ -93,16 +95,78 @@ footer a:hover {
 .last {
   color: #084e53;
   font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
 }
-@media screen and (max-width: 550px) {
-  ul,
-  footer,
-  header,
-  main {
-    display: block;
-  }
-  .image {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
+.headerprinciples a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #d7dbdb;
+  font-size: 1.2em;
+}
+.headerprinciples a:hover {
+  font-family: "Montserrat", sans-serif;
+  background: #fbfffe;
+  color: #084e53;
+  padding: 0.2em;
+}
+.headerprinciples h1 {
+  padding-bottom: 0.3em;
+}
+.mainofprinciples {
+  display: grid;
+  grid-template-columns: 1fx 1fx 1fx;
+  gap: 2em;
+  justify-items: center;
+  justify-content: center;
+  padding: 1.7em;
+  text-align: center;
+}
+.hierarchy {
+  grid-column: 1/2;
+  padding: 0.5em;
+  border: double 4px #99a1a1;
+}
+.proximity {
+  grid-column: 2/3;
+  padding: 0.5em;
+  border: double 4px #99a1a1;
+}
+.repititon {
+  grid-column: 3/4;
+  padding: 0.5em;
+  border: double 4px #99a1a1;
+}
+.mainofprinciples img {
+  width: 95%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+}
+.mainofprinciples h2 {
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  font-size: 1.5em;
+}
+.mainofprinciples a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #084e53;
+  font-size: 1.2em;
+}
+.mainofprinciples a:hover {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  color: #084e53;
+}
+.diva {
+  padding-bottom: 1em;
+}
+.mainofprinciples p {
+  padding-bottom: 1.5 em;
+  font-size: 1em;
+  line-height: 160%;
+  padding-top: 1.5em;
 }

@@ -1,0 +1,45 @@
+@media screen and (min-width: 762px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  header {
+    text-align: left;
+    padding-left: 3rem;
+    height: 180px;
+    padding-top: 3rem;
+  }
+  header h1 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  header img {
+    float: right;
+    margin: auto;
+    width: 280px;
+    margin-right: 3rem;
+    margin-top: -2rem;
+  }
+  .divmainhome {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+  }
+  footer h3 {
+    font-size: 1.6rem;
+  }
+  footer a {
+    font-size: 1.1rem;
+  }
+  .finalfooter p {
+    font-size: 1.1rem;
+  }
+  .finalfooter a {
+    font-size: 1.1rem;
+  }
+  footer a:hover {
+    font-size: 1.1rem;
+  }
+}

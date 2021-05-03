@@ -37,14 +37,9 @@ header a:hover {
   color: #084e53;
   padding: 0.3rem;
 }
-/*body {
-  background-color: #084e53;
-  min-height: 100%;
-  margin: auto;
-}*/
 main {
   background: #fbfffe;
-  padding: auto;
+  padding: 0.5rem;
 }
 
 footer {

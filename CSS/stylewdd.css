@@ -67,16 +67,21 @@ footer h3 {
   font-size: 1.3rem;
   margin-bottom: -0.5em;
   font-family: "Montserrat", sans-serif;
+  padding-top: 2rem;
 }
 .navfooter {
   margin-top: 2em;
   margin-bottom: 0.2em;
+  padding-bottom: 1rem;
 }
 footer a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: #6d676e;
   font-size: 1.1rem;
+}
+.finalfooter {
+  padding-bottom: 0.3rem;
 }
 .finalfooter p {
   font-size: 1.1rem;
@@ -90,6 +95,9 @@ footer a:hover {
   color: #6d676e;
   font-size: 1.1rem;
 }
+.social {
+  padding-bottom: 1em;
+}
 .social img {
   width: 3rem;
 }
@@ -101,5 +109,5 @@ footer a:hover {
   color: #084e53;
   font-size: 0.9rem;
   padding-top: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.5rem;
 }

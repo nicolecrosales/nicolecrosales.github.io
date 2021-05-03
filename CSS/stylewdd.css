@@ -12,6 +12,9 @@ h2 {
 p {
   font-family: "Montserrat", sans-serif;
 }
+body {
+  width: 100%;
+}
 header {
   text-align: center;
   color: #fbfffe;
@@ -26,7 +29,7 @@ header img {
 }
 header h1 {
   padding-bottom: 1rem;
-  padding-top: 1.8rem;
+  padding-top: 1.4rem;
 }
 main {
   background: #fbfffe;

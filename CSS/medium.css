@@ -26,7 +26,9 @@
   footer a:hover {
     font-size: 1.1rem;
   }
-
+  .mainofprinciples p {
+    font-size: 1.2rem;
+  }
   .mainofprinciples a {
     font-size: 1.2rem;
   }

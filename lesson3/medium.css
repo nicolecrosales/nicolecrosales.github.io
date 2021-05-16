@@ -1,0 +1,58 @@
+@media screen and (min-width: 600px) {
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 100%;
+  }
+  nav a {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  header {
+    height: 8rem;
+  }
+  .sizemain {
+    margin: 2rem;
+    border: double 4px white;
+  }
+  .interview ul li {
+    font-size: 1.2rem;
+  }
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .lightblue {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .blue {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .yellow {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .red {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .black {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}

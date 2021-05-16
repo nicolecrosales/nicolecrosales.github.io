@@ -1,0 +1,48 @@
+@media screen and (min-width: 1024px) {
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 100%;
+  }
+  nav a {
+    font-size: 1.3rem;
+  }
+  .sizemain {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  .interview ul li {
+    font-size: 1.3rem;
+  }
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .lightblue {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .blue {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .yellow {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .red {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+  .black {
+    grid-column: 5/6;
+    grid-row: 1/2;
+  }
+}

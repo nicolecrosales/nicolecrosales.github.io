@@ -6,33 +6,46 @@
         <title>Website Planning Document|Nicole Carrasco</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/lesson4/normalize.css">
-        <link href="/lesson4/css/small.css" rel="stylesheet" />
-        <link href="/lesson4/css/medium.css" rel="stylesheet" />
-        <link href="/lesson4/css/large.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/lesson4/normalize4.css">
+        <link href="/lesson4/css/small4.css" rel="stylesheet" />
+        <link href="/lesson4/css/medium4.css" rel="stylesheet" />
+        <link href="/lesson4/css/large4.css" rel="stylesheet" />
 
     </head>
     <body>
         <header>
-        <h2>Hello World</h2>    
-        </header> 
-        <nav>
-            <ul>
-                <li><a href="/lesson4/index.html">Purpose</a></li>
-                <li><a href="/lesson4/audience.html">Audience</a></li>
-                <li><a href="/lesson4/color.html">Color</a></li>
-                <li><a href="/lesson4/typography.html">Typography</a></li>
+            <div><img src="/lesson4/images/logo 4.png" alt="logo"></div>
+            <div>
+                <h1>Outdoors Site</h1>
+                <p class="p-header">Cross borders, Go far</p>
+            </div>
+        </header>
+        <div class="navigation">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/lesson4/preston-4.html">Home</a></li>
+                <li class="active"><a href="/lesson4/preston-4.html">Preston</a></li>
+                <li><a href="/lesson4/preston-4.html">Soda Springs</a></li>
+                <li><a href="/lesson4/preston-4.html">Fish Haven</a></li>
+                <li><a href="/lesson4/preston-4.html">Storm Center</a></li>
+                <li><a href="/lesson4/preston-4.html">Gallery</a></li>
             </ul>
         </nav>
-        
+        </div> 
         <main>
-            
-
+            <h2>Preston Idaho</h2>
+            <div class="main-content">
+                <section class="main-content__section1"><h3 class="main-content__section--heading">Hero Image/Weather Summary</h3></section>
+                <section class="main-content__section2"><h3 class="main-content__section--heading">5 Day Forecast</h3></section>
+                <section class="main-content__section3"><h3 class="main-content__section--heading">Article</h3></section>
+                <section class="main-content__section4"><h3 class="main-content__section--heading">Contact Information</h3></section>
+            </div>
         </main>
         <footer>
             <p><span class="year">&copy;</span> <span class="year" id="currentyear"></span> | Nicole Carrasco Rosales | Chile | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p> 
             <div class="lastfooter"><p>Last Modified: <span id="display"></span></p></div>
         </footer>
-        <script src="/lesson4/js/.js"></script>
+        <script src="/lesson4/js/pres.js"></script>
     </body>
 </html>

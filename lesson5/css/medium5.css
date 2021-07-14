@@ -1,0 +1,24 @@
+@media screen and (min-width: 597px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .main-content__section--heading {
+    font-size: 1.2rem;
+  }
+  .p-header {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+  }
+  nav button {
+    font-size: 1.5rem;
+  }
+
+  footer a,
+  footer p {
+    font-size: 1.1rem;
+  }
+}

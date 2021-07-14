@@ -1,0 +1,163 @@
+:root {
+  --first-color: #084c61;
+  --second-color: #ffc857;
+  --third-color: #177e89;
+  --fourth-color: #323031;
+  --five-color: #db3a34;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: var(--first-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+header img {
+  width: 50%;
+}
+
+nav button {
+  margin-left: 40%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--second-color);
+}
+
+nav {
+  background-color: var(--fourth-color);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.hide {
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: var(--second-color);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+}
+
+nav ul li.active a {
+  background-color: var(--second-color);
+  color: white;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+}
+
+.p-header {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--second-color);
+  margin: 0;
+}
+main {
+  background-color: var(--third-color);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 2rem;
+}
+
+.main-content__section1 {
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--second-color);
+  border: double 4px var(--fourth-color);
+}
+.main-content__section2 {
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--second-color);
+  border: double 4px var(--fourth-color);
+}
+.main-content__section3 {
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--second-color);
+  border: double 4px var(--fourth-color);
+}
+.main-content__section4 {
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--second-color);
+  border: double 4px var(--fourth-color);
+}
+
+.main-content__section--heading {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: var(--fourth-color);
+}
+
+footer {
+  background: #323031;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+footer a {
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ffc857;
+  font-size: 1.1rem;
+}
+footer p {
+  font-size: 1rem;
+}
+.lastfooter {
+  padding: 1rem;
+}

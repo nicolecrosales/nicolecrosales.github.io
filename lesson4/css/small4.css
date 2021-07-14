@@ -83,6 +83,7 @@ h1 {
   font-size: 2rem;
   color: white;
   margin: 0;
+  text-align: center;
 }
 
 h2 {
@@ -110,25 +111,25 @@ main {
 
 .main-content__section1 {
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
   background: var(--second-color);
   border: double 4px var(--fourth-color);
 }
 .main-content__section2 {
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
   background: var(--second-color);
   border: double 4px var(--fourth-color);
 }
 .main-content__section3 {
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
   background: var(--second-color);
   border: double 4px var(--fourth-color);
 }
 .main-content__section4 {
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
   background: var(--second-color);
   border: double 4px var(--fourth-color);
 }
@@ -143,7 +144,8 @@ footer {
   background: #323031;
   color: white;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 footer a {
   color: white;

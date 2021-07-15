@@ -1,10 +1,13 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   h1 {
     font-size: 4rem;
     margin: 0;
   }
   h2 {
     font-size: 2.5rem;
+  }
+  main {
+    max-width: 900px;
   }
   .main-content__section--heading {
     font-size: 1.2rem;
@@ -27,33 +30,14 @@
     border: none;
     font-size: 1.2rem;
   }
-  .main {
-    padding: 4rem;
+  .main-content__section11 {
+    top: 25rem;
   }
-  .main-content {
-    max-width: 120rem;
-    margin: 2rem;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+  .main-content__section1 img {
+    position: relative;
+    max-height: 247px;
+    max-width: 900px;
   }
-
-  .main-content__section1 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  .main-content__section2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .main-content__section3 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-  .main-content__section4 {
-    grid-column: 2/3;
-    grid-row: 4/5;
-  }
-
   footer a,
   footer p {
     font-size: 1.2rem;

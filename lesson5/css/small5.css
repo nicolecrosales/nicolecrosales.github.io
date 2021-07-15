@@ -14,19 +14,36 @@ h4 {
 }
 
 p,
-a {
+a,
+span {
   font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
-
+body {
+  background-color: var(--third-color);
+}
+.banner {
+  padding: 1rem;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  display: none;
+}
 header {
   background-color: var(--first-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem;
 }
 header img {
-  width: 50%;
+  width: 35%;
+  padding-left: 1rem;
 }
 
 nav button {
@@ -35,6 +52,7 @@ nav button {
   border: none;
   font-size: 1.2rem;
   color: var(--second-color);
+  padding: 0.5rem;
 }
 
 nav {
@@ -80,80 +98,233 @@ nav ul.hide {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: white;
   margin: 0;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: white;
-  text-align: center;
+  text-align: left;
+  padding-bottom: 2rem;
+  margin-left: 1.5rem;
 }
 
 .p-header {
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 0.9rem;
+  text-align: left;
   color: var(--second-color);
   margin: 0;
 }
 main {
   background-color: var(--third-color);
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  position: center;
 }
 
-.main-content {
-  max-width: 120rem;
-  margin: 2rem;
+.main-content__section1 img {
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 1rem;
 }
-
-.main-content__section1 {
-  margin: 1rem;
-  padding: 1rem;
-  background: var(--second-color);
-  border: double 4px var(--fourth-color);
+.main-content__section11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  background: var(--first-color);
+  box-shadow: 1px 1px 2px 1px rgb(118, 118, 175);
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
-.main-content__section2 {
-  margin: 1rem;
-  padding: 1rem;
-  background: var(--second-color);
-  border: double 4px var(--fourth-color);
-}
-.main-content__section3 {
-  margin: 1rem;
-  padding: 1rem;
-  background: var(--second-color);
-  border: double 4px var(--fourth-color);
-}
-.main-content__section4 {
-  margin: 1rem;
-  padding: 1rem;
-  background: var(--second-color);
-  border: double 4px var(--fourth-color);
-}
-
-.main-content__section--heading {
+.tittle-section1 {
+  grid-column: 1/3;
+  text-align: left;
+  padding-left: 1.5rem;
   font-size: 1.2rem;
   font-weight: 200;
-  color: var(--fourth-color);
+  color: white;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+.left-column {
+  grid-column: 1/2;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+.right-column {
+  grid-column: 2/3;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+.main-content__section2 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.daysforecast {
+  border-radius: 3px;
+  background-color: var(--first-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.main-content__section2--heading {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contentdaysgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+.daysgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 1px 1px 2px 1px rgb(118, 118, 175);
+  border-radius: 3px;
+  background-color: white;
+  gap: 0.5em;
+  width: 80%;
+}
+.daysgrid img {
+  width: 60%;
+  grid-row: 2/3;
+  background-color: white;
+}
+.day {
+  grid-row: 1/2;
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+.data {
+  grid-row: 3/4;
+  background-color: white;
+  color: ver(--fourth-color);
+  width: 100%;
+  text-align: center;
+}
+
+.main-content__section3 {
+  width: 100%;
+  background: var(--first-color);
+  border-radius: 3px;
+  color: white;
+}
+.content-article {
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.content-article h3 {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 1rem;
+}
+.content-article p {
+  color: white;
+  padding-bottom: 1rem;
+  line-height: 20px;
+}
+.content-article p a {
+  text-decoration: none;
+  color: var(--second-color);
+  font-style: italic;
+  display: block;
+}
+.content-article p a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+.content-article img {
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 2px 1px rgb(118, 118, 175);
+  border-radius: 3px;
+  margin-bottom: 1rem;
 }
 
 footer {
   background: #323031;
   color: white;
-  text-align: center;
-  padding-top: 1rem;
 }
-footer a {
+.main-content__section4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--first-color);
+}
+.first-section-footer-contact {
+  grid-row: 1/2;
+}
+.second-section-footer-contact {
+  grid-row: 2/3;
+}
+.main-content__section4--heading {
+  text-align: left;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 200;
   color: white;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
+  padding-top: 1.5rem;
+  margin-bottom: 0.8rem;
 }
-footer a:hover {
-  color: #ffc857;
+.info-contact h4 {
+  text-align: left;
+  padding-left: 1.5rem;
   font-size: 1.1rem;
+  color: white;
+  padding-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+.info-contact p {
+  color: white;
+  padding-bottom: 1rem;
+  line-height: 15px;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+.info-contact img {
+  width: 1rem;
+}
+.second-section-footer-contact a img {
+  width: 90%;
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.div-footer {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+.social {
+  padding-bottom: 1em;
+  padding-left: 1.5rem;
+  padding-top: 0.8rem;
+}
+.social img {
+  width: 1.7rem;
+}
+.social a:hover img {
+  width: 1.8rem;
 }
 footer p {
   font-size: 1rem;

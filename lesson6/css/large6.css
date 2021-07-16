@@ -6,10 +6,8 @@
   h2 {
     font-size: 2.5rem;
   }
-  main {
-    max-width: 900px;
-  }
-  .main-content__section--heading {
+  p,
+  a {
     font-size: 1.2rem;
   }
   .p-header {
@@ -30,11 +28,9 @@
     border: none;
     font-size: 1.2rem;
   }
-  .main-content__section11 {
-    top: 25rem;
+  /*-------------------------------------Preston Town-----------------------------*/
+  .main-preston {
+    max-width: 900px;
   }
-  footer a,
-  footer p {
-    font-size: 1.2rem;
-  }
+  /*---------------------------------------Footer--------------------------------*/
 }

@@ -12,17 +12,53 @@ h3,
 h4 {
   font-family: "IBM Plex Serif", serif;
 }
-
+h1 {
+  font-size: 1.6rem;
+  color: white;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+  color: white;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+h3 {
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: white;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+h4 {
+  text-align: left;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 0.7rem;
+}
 p,
 a,
 span {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+.p-header {
+  font-size: 0.9rem;
+  text-align: left;
+  color: var(--second-color);
+  margin: 0;
+}
+p {
+  color: white;
+  padding-bottom: 1rem;
 }
 body {
   background-color: var(--third-color);
 }
-.banner {
+.alert-friday {
   padding: 1rem;
   background-color: var(--second-color);
   color: var(--fourth-color);
@@ -33,6 +69,9 @@ body {
   z-index: 1;
   position: relative;
   display: none;
+}
+.visible {
+  display: block;
 }
 header {
   background-color: var(--first-color);
@@ -89,35 +128,6 @@ nav ul li.active a {
 nav ul.hide {
   display: none;
 }
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-h1 {
-  font-size: 1.6rem;
-  color: white;
-  margin: 0;
-  padding-bottom: 0.5rem;
-}
-
-h2 {
-  font-size: 1.8rem;
-  color: white;
-  text-align: left;
-  padding-bottom: 2rem;
-  margin-left: 1.5rem;
-}
-
-.p-header {
-  font-size: 0.9rem;
-  text-align: left;
-  color: var(--second-color);
-  margin: 0;
-}
 main {
   background-color: var(--third-color);
   padding-top: 2rem;
@@ -126,13 +136,24 @@ main {
   padding-right: 0.3rem;
   position: center;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-.pictureimg {
+/*-----------------------Preston Town-------------------------------------*/
+
+.main-preston-content h2 {
+  margin-left: 1.5rem;
+}
+
+.main-content-section1 picture img.pictureimg {
   max-width: 100%;
   border-radius: 3px;
   margin-bottom: 1rem;
 }
-.main-content__section11 {
+.main-content-section1-weathersummary {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -143,51 +164,41 @@ main {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-.tittle-section1 {
+.main-content-section1-weathersummary h3 {
   grid-column: 1/3;
   text-align: left;
-  padding-left: 1.5rem;
-  font-size: 1.2rem;
-  font-weight: 200;
-  color: white;
-  padding-top: 1rem;
-  margin-bottom: 1rem;
 }
-.left-column {
+.main-content-section1-weathersummary-left-column {
   grid-column: 1/2;
   padding-bottom: 0.5rem;
   padding-left: 1.5rem;
 }
-.right-column {
+.main-content-section1-weathersummary-right-column {
   grid-column: 2/3;
   padding-bottom: 0.5rem;
   padding-left: 1.5rem;
 }
-.main-content__section2 {
+.main-content-section2 {
   width: 100%;
   margin-bottom: 1rem;
 }
-.daysforecast {
+.main-content-section2-5daysforecast {
   border-radius: 3px;
   background-color: var(--first-color);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.main-content__section2--heading {
-  font-size: 1.2rem;
-  font-weight: 200;
-  color: white;
-  margin-bottom: 1rem;
+.main-content-section2-5daysforecast h3 {
   text-align: center;
 }
-.contentdaysgrid {
+.main-content-section2-5daysforecast-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
   width: 100%;
   justify-content: center;
   justify-items: center;
 }
-.daysgrid {
+.main-content-section2-5daysforecast-content-grid {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -200,12 +211,12 @@ main {
   gap: 0.5em;
   width: 80%;
 }
-.daysgrid img {
+.main-content-section2-5daysforecast-content-grid img {
   width: 60%;
   grid-row: 2/3;
   background-color: white;
 }
-.day {
+.main-content-section2-5daysforecast-content-grid-day {
   grid-row: 1/2;
   background-color: var(--fourth-color);
   color: var(--second-color);
@@ -214,7 +225,7 @@ main {
   padding-bottom: 0.5rem;
   text-align: center;
 }
-.data {
+.main-content-section2-5daysforecast-content-data {
   grid-row: 3/4;
   background-color: white;
   color: ver(--fourth-color);
@@ -222,40 +233,34 @@ main {
   text-align: center;
 }
 
-.main-content__section3 {
+.main-content-section3 {
   width: 100%;
   background: var(--first-color);
   border-radius: 3px;
   color: white;
 }
-.content-article {
+.main-content-section3-article {
   margin: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.content-article h3 {
+.main-content-section3-article h3 {
   text-align: left;
-  font-size: 1.2rem;
-  font-weight: 200;
-  color: white;
-  margin-bottom: 1rem;
 }
-.content-article p {
-  color: white;
-  padding-bottom: 1rem;
+.main-content-section3-article p {
   line-height: 20px;
 }
-.content-article p a {
+.main-content-section3-article p a {
   text-decoration: none;
   color: var(--second-color);
   font-style: italic;
   display: block;
 }
-.content-article p a:hover {
+.main-content-section3-article p a:hover {
   text-decoration: underline;
   font-style: italic;
 }
-.content-article img {
+.main-content-section3-article img {
   width: 100%;
   margin-top: 1rem;
   box-shadow: 1px 1px 2px 1px rgb(118, 118, 175);
@@ -263,72 +268,58 @@ main {
   margin-bottom: 1rem;
 }
 
+/*-------------------------------Footer--------------------------------------------*/
 footer {
   background: #323031;
   color: white;
+  margin: 0.3rem;
 }
-.main-content__section4 {
+.footer-content1 {
   display: grid;
   grid-template-columns: 1fr;
   background-color: var(--first-color);
 }
-.first-section-footer-contact {
+.footer-content1-section1 {
   grid-row: 1/2;
 }
-.second-section-footer-contact {
-  grid-row: 2/3;
-}
-.main-content__section4--heading {
-  text-align: left;
-  padding-left: 1.5rem;
-  font-size: 1.2rem;
-  font-weight: 200;
-  color: white;
+.footer-content1-section1 h3 {
   padding-top: 1.5rem;
-  margin-bottom: 0.8rem;
 }
-.info-contact h4 {
-  text-align: left;
-  padding-left: 1.5rem;
-  font-size: 1.1rem;
-  color: white;
+.footer-content1-section1-info h4 {
   padding-top: 1rem;
-  margin-bottom: 0.7rem;
 }
-.info-contact p {
-  color: white;
+.footer-content1-section1-info p {
   padding-bottom: 1rem;
   line-height: 15px;
   padding-left: 1.5rem;
-  font-size: 1rem;
 }
-.info-contact img {
+.footer-content1-section1-info p img {
   width: 1rem;
 }
-.second-section-footer-contact a img {
+.footer-content1-section1-social {
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  padding-top: 0.4rem;
+}
+.footer-content1-section1-social img {
+  width: 1.7rem;
+}
+.footer-content1-section1-social a:hover img {
+  width: 1.8rem;
+}
+.footer-content1-section2 {
+  grid-row: 2/3;
+}
+.footer-content1-section2 a img {
   width: 90%;
   margin-top: 1rem;
   padding-left: 1.2rem;
   padding-bottom: 1.5rem;
 }
-.div-footer {
+.footer-content2 {
   margin-top: 1rem;
-  padding-left: 1.2rem;
+  text-align: center;
 }
-.social {
-  padding-bottom: 1em;
-  padding-left: 1.5rem;
-  padding-top: 0.8rem;
-}
-.social img {
-  width: 1.7rem;
-}
-.social a:hover img {
-  width: 1.8rem;
-}
-footer p {
-  font-size: 1rem;
-}
-.lastfooter {
-  padding: 1rem;
+.footer-content2-date {
+  padding-bottom: 1rem;
 }

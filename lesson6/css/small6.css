@@ -157,7 +157,7 @@ main {
   grid-template-columns: 1fr 1fr;
   width: 100%;
   background: var(--first-color);
-  box-shadow: 1px 1px 2px 1px #084c61;
+  box-shadow: 1px 1px 2px 1px #323031;
   border-radius: 3px;
   color: white;
   margin-bottom: 1rem;
@@ -204,7 +204,7 @@ main {
   justify-items: center;
   align-items: center;
   align-content: center;
-  box-shadow: 1px 1px 2px 1px #084c61;
+  box-shadow: 1px 1px 2px 1px #323031;
   border-radius: 3px;
   background-color: white;
   gap: 0.5em;
@@ -262,7 +262,7 @@ main {
 .main-content-section3-article img {
   width: 100%;
   margin-top: 1rem;
-  box-shadow: 1px 1px 2px 1px #084c61;
+  box-shadow: 1px 1px 2px 1px #323031;
   border-radius: 3px;
   margin-bottom: 1rem;
 }
@@ -275,6 +275,14 @@ main {
   width: 100%;
   margin-bottom: 0.3rem;
   border-radius: 3px;
+}
+.main-gallery-grid div picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+.main-gallery-grid div picture img {
+  filter: blur(0em);
+  transition: filter 1s;
 }
 /*-------------------------------Footer--------------------------------------------*/
 footer {

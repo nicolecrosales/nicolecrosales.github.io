@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Lazy assignment">
+        <title>Lazy Looading image></title>
+        <link rel="shortcut icon" href="/lesson4/images4/favicon2.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/lesson07/css/normalize07.css">
+        <link rel="stylesheet" href="/lesson07/css/stylelazy.css">
+    </head>
+    <body>
+        <header>
+            <h1>Lazy Loading Images</h1>
+        </header>
+        <main>
+            <h2>Scroll Down</h2>
+            <picture>
+                <img src='/Images/placeholder.jpg' data-src='/Images/lazy1.jpg' alt='image1'>
+            </picture>
+            <picture>
+                <img src='/Images/placeholder.jpg' data-src='/Images/lazy2.jpg' alt='image2'>
+            </picture>
+            <picture>
+                <img src='/Images/placeholder.jpg' data-src='/Images/lazy3.jpg' alt='image3'>
+            </picture>
+            <picture>
+                <img src='/Images/placeholder.jpg' data-src='/Images/lazy4.jpg' alt='image4'>
+            </picture>
+            <picture>
+                <img src='/Images/placeholder.jpg' data-src='/Images/lazy5.jpg' alt='image5'>
+            </picture>
+            
+
+            
+  
+        </main>
+        <footer>
+            <p><span class="year">&copy;</span> <span class="year" id="currentyear"></span> | Nicole Carrasco Rosales | Chile | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p> 
+            <div class="lastfooter"><p>Last Modified: <span id="display"></span></p></div>
+        </footer>
+
+        <script src="/lesson07/js/lazy.js"></script>
+
+    </body>
+
+</html>

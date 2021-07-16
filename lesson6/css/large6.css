@@ -1,0 +1,38 @@
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  main {
+    max-width: 900px;
+  }
+  .main-content__section--heading {
+    font-size: 1.2rem;
+  }
+  .p-header {
+    font-size: 2rem;
+  }
+  nav button {
+    display: none;
+  }
+  nav ul.hide {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    float: left;
+    flex: 1;
+  }
+  nav ul li a {
+    border: none;
+    font-size: 1.2rem;
+  }
+
+  footer a,
+  footer p {
+    font-size: 1.2rem;
+  }
+}

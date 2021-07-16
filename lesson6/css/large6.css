@@ -30,7 +30,9 @@
     border: none;
     font-size: 1.2rem;
   }
-
+  .main-content__section11 {
+    top: 25rem;
+  }
   footer a,
   footer p {
     font-size: 1.2rem;

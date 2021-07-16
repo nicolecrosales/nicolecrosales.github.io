@@ -1,0 +1,126 @@
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  main.main-preston {
+    max-width: 900px;
+  }
+  .main-content__section--heading {
+    font-size: 1.2rem;
+  }
+  .p-header {
+    font-size: 2rem;
+  }
+  nav button {
+    display: none;
+  }
+  nav ul.hide {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    float: left;
+    flex: 1;
+  }
+  nav ul li a {
+    border: none;
+    font-size: 1.2rem;
+  }
+
+  footer a,
+  footer p {
+    font-size: 1.2rem;
+  }
+}
+
+.galley-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.galley-grid h2.galley-grid-heading {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+.gallety-grid-content1 {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+.gallety-grid-content2 {
+  grid-column: 2/3;
+  grid-row: 2;
+}
+.gallety-grid-content3 {
+  grid-column: 3/4;
+  grid-row: 2;
+}
+.gallety-grid-content4 {
+  grid-column: 1/2;
+  grid-row: 3;
+}
+.gallety-grid-content5 {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+.gallety-grid-content6 {
+  grid-column: 3/4;
+  grid-row: 3;
+}
+.gallety-grid-content7 {
+  grid-column: 1/2;
+  grid-row: 4;
+}
+.gallety-grid-content8 {
+  grid-column: 2/3;
+  grid-row: 4;
+}
+.gallety-grid-content9 {
+  grid-column: 3/4;
+  grid-row: 4;
+}
+
+main.main-gallery {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+.gallety-grid-content1 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content2 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content3 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content4 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content5 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content6 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content7 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content8 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+.gallety-grid-content9 p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}

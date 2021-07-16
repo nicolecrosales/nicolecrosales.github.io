@@ -31,7 +31,7 @@
     margin-left: auto;
   }
   .alert-friday {
-    padding: 1, 1rem;
+    padding: 1.1rem;
     font-size: 1.4rem;
   }
   header {
@@ -80,6 +80,19 @@
   }
   .main-content-section3-article div {
     float: left;
+  }
+  /*-------------------------------Gallery------------------------------------------*/
+  .main-gallery {
+    max-width: 680px;
+  }
+  .main-gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .main-gallery-grid h2 {
+    grid-column: 1/3;
+    grid-row: 1;
   }
 
   /*-------------------------------Footer--------------------------------------------*/

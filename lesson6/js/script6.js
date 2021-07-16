@@ -9,5 +9,5 @@ if (dayOfWeek === 5) {
     banner.classList.add('visible');
 }
 /*-----------------------------------Font--------------------------------------- */
-WebFont.load({google: {families: ["IBM Plex Serif", "Montserrat"]
+WebFont.load({google: {families: ["IBM Plex Serif, serif", "Montserrat, sans-serif"]
     }});

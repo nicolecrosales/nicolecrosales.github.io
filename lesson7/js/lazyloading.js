@@ -1,7 +1,3 @@
-function toggleMenu () {
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
-
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {

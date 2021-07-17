@@ -7,7 +7,11 @@
     font-size: 2.5rem;
   }
   p,
-  a {
+  a,
+  label,
+  input,
+  textarea,
+  .main-stormcenter-stormreport-regions {
     font-size: 1.2rem;
   }
   .p-header {
@@ -48,5 +52,33 @@
   .main-gallery-grid div picture img:hover {
     box-shadow: 1px 1px 4px 1px #084c61;
   }
-  /*---------------------------------------Footer--------------------------------*/
+  /*-----------------------------------Storm Center------------------------------------*/
+  .main-stormcenter {
+    max-width: 1000px;
+  }
+  .main-stormcenter-1field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .main-stormcenter-aboutme {
+    grid-column: 1/3;
+  }
+  .input {
+    width: 100%;
+  }
+  .buttongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .button {
+    grid-column: 1/2;
+    width: 100%;
+  }
+  .aditionalinfo {
+    grid-column: 1/3;
+  }
+  .mainmargin {
+    padding-top: 0rem;
+  }
 }

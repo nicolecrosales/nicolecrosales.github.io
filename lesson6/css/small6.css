@@ -9,7 +9,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+legend {
   font-family: "IBM Plex Serif", serif;
 }
 h1 {
@@ -24,7 +25,8 @@ h2 {
   text-align: left;
   padding-bottom: 2rem;
 }
-h3 {
+h3,
+legend {
   padding-left: 1.5rem;
   font-size: 1.2rem;
   font-weight: 200;
@@ -41,7 +43,11 @@ h4 {
 }
 p,
 a,
-span {
+span,
+label,
+input,
+textarea,
+.main-stormcenter-stormreport-regions {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
 }
@@ -284,6 +290,85 @@ main {
   filter: blur(0em);
   transition: filter 1s;
 }
+/*-----------------------------------Storm Center------------------------------------*/
+form {
+  background-color: var(--first-color);
+  border-radius: 3px;
+  padding: 2rem 0rem;
+}
+#feedback {
+  padding: 1rem;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+label {
+  margin-bottom: 1rem;
+  text-align: left;
+  color: white;
+}
+input,
+textarea,
+.main-stormcenter-stormreport-regions {
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #1b1b1e;
+  border-radius: 10px;
+}
+input:focus,
+textarea:focus {
+  border-color: #6d676e;
+}
+textarea {
+  vertical-align: top;
+}
+.button {
+  color: white;
+  padding: 1em 2em 1em 2em;
+  background-color: var(--fourth-color);
+  border-radius: 50px;
+  border: solid 2px var(--fourth-color);
+}
+.button {
+  background-color: var(--second-color);
+  border: solid 2px var(--second-color);
+  color: var(--fourth-color);
+}
+.main-stormcenter-1field,
+.buttongrid,
+.main-stormcenter-opinio-grid {
+  padding: 1.5rem;
+}
+.main-stormcenter-stormreport-rate-ranges {
+  width: 80%;
+  display: block;
+}
+#ratingvalue {
+  color: white;
+}
+.option {
+  display: block;
+}
+.option input {
+  width: 20px;
+}
+form label.answer-option {
+  display: block;
+  margin: 0px 18px 3px 18px;
+}
+form label.answer-option {
+  padding-bottom: 10px;
+}
+
 /*-------------------------------Footer--------------------------------------------*/
 footer {
   background: #323031;

@@ -192,50 +192,47 @@ main {
   background-color: var(--first-color);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .main-content-section2-5daysforecast h3 {
   text-align: center;
 }
 .main-content-section2-5daysforecast-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+  grid-template-columns: 1fr;
   width: 100%;
   justify-content: center;
   justify-items: center;
 }
 .main-content-section2-5daysforecast-content-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
   box-shadow: 1px 1px 2px 1px #323031;
   border-radius: 3px;
-  background-color: white;
-  gap: 0.5em;
+  background-color: var(--third-color);
   width: 80%;
+  margin-bottom: 2rem;
 }
 .main-content-section2-5daysforecast-content-grid img {
   width: 60%;
-  grid-row: 2/3;
-  background-color: white;
+  background-color: var(--third-color);
 }
 .main-content-section2-5daysforecast-content-grid-day {
-  grid-row: 1/2;
-  background-color: var(--fourth-color);
-  color: var(--second-color);
+  color: white;
   width: 100%;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   text-align: center;
 }
 .main-content-section2-5daysforecast-content-data {
-  grid-row: 3/4;
-  background-color: white;
-  color: var(--fourth-color);
+  background-color: --third-color;
+  color: white;
   width: 100%;
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 .main-content-section3 {

@@ -37,6 +37,24 @@
   .main-thanks {
     max-width: 900px;
   }
+  .main-content-section2-5daysforecast-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    height: 50%;
+  }
+  .main-content-section2-5daysforecast-content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-content-section2-5daysforecast-content-grid-day {
+    background-color: var(--fourth-color);
+    color: var(--second-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
   /*-------------------------------Gallery------------------------------------------*/
   .main-gallery {
     max-width: 1000px;

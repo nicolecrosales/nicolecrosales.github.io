@@ -294,26 +294,14 @@ main {
 form {
   background-color: var(--first-color);
   border-radius: 3px;
-  padding: 2rem 0rem;
-}
-#feedback {
-  padding: 1rem;
-  background-color: var(--second-color);
-  color: var(--fourth-color);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: none;
+  padding: 2rem;
 }
 label {
-  margin-bottom: 1rem;
-  text-align: left;
   color: white;
+}
+.mainmargin {
+  display: block;
+  padding-bottom: 1.5rem;
 }
 input,
 textarea,
@@ -332,25 +320,25 @@ textarea {
   vertical-align: top;
 }
 .button {
-  color: white;
-  padding: 1em 2em 1em 2em;
-  background-color: var(--fourth-color);
-  border-radius: 50px;
-  border: solid 2px var(--fourth-color);
-}
-.button {
-  background-color: var(--second-color);
-  border: solid 2px var(--second-color);
   color: var(--fourth-color);
+  padding: 1em 2em 1em 2em;
+  background-color: var(--second-color);
+  border-radius: 50px;
+  border: solid 2px var(--second-color);
+}
+.button:hover {
+  background-color: var(--fourth-color);
+  border: solid 2px var(--fourth-color);
+  color: white;
 }
 .main-stormcenter-1field,
 .buttongrid,
 .main-stormcenter-opinio-grid {
-  padding: 1.5rem;
+  padding: 1.5rem 0rem;
 }
+
 .main-stormcenter-stormreport-rate-ranges {
-  width: 80%;
-  display: block;
+  width: 90%;
 }
 #ratingvalue {
   color: white;
@@ -361,12 +349,27 @@ textarea {
 .option input {
   width: 20px;
 }
-form label.answer-option {
-  display: block;
-  margin: 0px 18px 3px 18px;
+
+/*------------------------------thanks----------------------------------------------*/
+.main-thanks {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
-form label.answer-option {
-  padding-bottom: 10px;
+.main-thanks h2 {
+  margin: 2rem 2rem;
+  width: 96%;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: var(--first-color);
+}
+.main-thanks p a.goback {
+  font-style: italic;
+  color: var(--second-color);
+  font-size: 1.4;
+}
+.main-thanks p {
+  text-align: center;
 }
 
 /*-------------------------------Footer--------------------------------------------*/

@@ -33,7 +33,8 @@
     font-size: 1.2rem;
   }
   /*-------------------------------------Preston Town-----------------------------*/
-  .main-preston {
+  .main-preston,
+  .main-thanks {
     max-width: 900px;
   }
   /*-------------------------------Gallery------------------------------------------*/
@@ -53,32 +54,20 @@
     box-shadow: 1px 1px 4px 1px #084c61;
   }
   /*-----------------------------------Storm Center------------------------------------*/
-  .main-stormcenter {
-    max-width: 1000px;
-  }
-  .main-stormcenter-1field {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-  .main-stormcenter-aboutme {
-    grid-column: 1/3;
-  }
-  .input {
-    width: 100%;
+  .mainmargin {
+    display: block;
+    padding-bottom: 2.1rem;
   }
   .buttongrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .button {
     grid-column: 1/2;
     width: 100%;
   }
-  .aditionalinfo {
-    grid-column: 1/3;
-  }
-  .mainmargin {
-    padding-top: 0rem;
+
+  .main-thanks p a.goback {
+    font-size: 1.8rem;
   }
 }

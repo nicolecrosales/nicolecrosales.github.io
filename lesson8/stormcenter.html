@@ -41,81 +41,83 @@
         <main class="main-stormcenter">
             <h2>Contact Us</h2>
             
-            <form method="GET" action="thanks.html">
+            <form target="_self" action="thanks.html">
 
                 <fieldset>
                     <legend class="main-stormcenter-aboutme">About me</legend>
                     <div class="main-stormcenter-1field">
-                    <label class="mainmargin">Full Name*<input type="text" minlength="5" pattern="[A-Za-z]+{5,100}" placeholder="Full Name" name="fname" required></label>
-                    <label class="mainmargin">Email*<input type="email" placeholder="example@gmail.com" name="email" required></label>
-                    <label class="mainmargin">Phone*<input type="tel" placeholder="Phone number" name="phone" required></label>
-                    <label class="mainmargin">Zip Code*<input type="number" placeholder="Zip Code" name="zcode" required></label>
+                        <label class="mainmargin">Full Name*<input type="text" minlength="5" pattern="[A-Za-z]+{5,100}" placeholder="Full Name" name="fname" required></label>
+                        <label class="mainmargin">Email*<input type="email" placeholder="example@gmail.com" name="email" required></label>
+                        <label class="mainmargin">Phone*<input type="tel" placeholder="Phone number" name="phone" required></label>
+                        <label class="mainmargin">Zip Code*<input type="number" placeholder="Zip Code" name="zcode" required></label>
                     </div>
                 </fieldset>
 
                 <fieldset>
-                    <legend class="mainmargin">Storm Report</legend>
+                    <legend>Storm Report</legend>
                     <div class="main-stormcenter-1field">
-                    <label class="mainmargin">Storm Date*<input type="date" name="date"></label>
-                    <div>
-                        <label class="mainmargin">Select Storm Area<br>
-                        <select class="main-stormcenter-stormreport-regions" name="regions">
-                            <option value="" disabled="" selected ="">--Chose a Region--</option>
-                            <option value="Preston">Preston</option>
-                            <option value="Soda Springs">Soda Springs</option>
-                            <option value="Fish Haven">Fish Haven</option>
-                        </select></label>
+                        <label class="mainmargin">Storm Date*<input type="date" name="date"></label>
+                        <div>
+                            <label class="mainmargin">Select Storm Area<br>
+                                <select class="main-stormcenter-stormreport-regions" name="regions">
+                                    <option value="" disabled="" selected ="">--Chose a Region--</option>
+                                    <option value="Preston">Preston</option>
+                                    <option value="Soda Springs">Soda Springs</option>
+                                    <option value="Fish Haven">Fish Haven</option>
+                                </select>
+                            </label>
                         </div>
-                    <label class="mainmargin">Select The Storm Events<input type="text" list="storms">
-                        <datalist id="storms">            
-                            <option class="main-stormcenter-stormreport-selectevents-option" value="" disabled="" selected="">--Select the storm type--</option>
-                            <option value="Flash Flood"></option>
-                            <option value="Hail"></option>
-                            <option value="Hurracaine"></option>
-                            <option value="Thunderstorm"></option>
-                            <option value="Tornado"></option>
-                        </datalist>
-                    </label>
-                   
-                   <div>
-                    <label class="main-stormcenter-stormreport-rate" for="rating">Rate Storm (1 to 10): &nbsp;&nbsp;&nbsp;</label>
-                    <input class="main-stormcenter-stormreport-rate-ranges" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
+                        <label class="mainmargin">Select The Storm Events<input type="text" list="storms">
+                            <datalist id="storms">            
+                                <option class="main-stormcenter-stormreport-selectevents-option" value="" disabled="" selected="">--Select the storm type--</option>
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurracaine"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
+                            </datalist>
+                        </label>
+                        <div class="mainmargin">
+                            <label class="main-stormcenter-stormreport-rate" for="rating">Rate Storm (1 to 10): &nbsp;&nbsp;&nbsp;</label>
+                            <input class="main-stormcenter-stormreport-rate-ranges" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
 
-                    <datalist id="tickmarks">
-                        <option value="0">
-                        <option value="1">
-                        <option value="2">
-                        <option value="3">
-                        <option value="4">
-                        <option value="5">
-                        <option value="6">
-                        <option value="7">
-                        <option value="8">
-                        <option value="9">
-                        <option value="10">
-                    </datalist>
-                   </div>
+                            <datalist id="tickmarks">
+                                <option value="0">
+                                <option value="1">
+                                <option value="2">
+                                <option value="3">
+                                <option value="4">
+                                <option value="5">
+                                <option value="6">
+                                <option value="7">
+                                <option value="8">
+                                <option value="9">
+                                <option value="10">
+                            </datalist>
+                        </div>
                      
-                    <div>
-                    <label class="mainmargin">Are You In Danger?</label>
-                    <div class="optiondiv">
-                        <label class="option"><input type="radio" name="response" value="yes"> Yes.</label>
-                        <label class="option"><input type="radio" name="response" value="maybe"> Maybe.</label>
-                        <label class="option"><input type="radio" name="response" value="no"> No.</label>
-                    </div>    
+                        <div>
+                            <label class="mainmargin" >Are You In Danger?</label>
+                            <div class="optiondiv">
+                                <label class="option"><input type="radio" name="response" value="yes"> Yes.</label>
+                                <label class="option"><input type="radio" name="response" value="maybe"> Maybe.</label>
+                                <label class="option"><input type="radio" name="response" value="no"> No.</label>
+                            </div>    
+                        </div>
                     </div>
-                </div>
                 </fieldset>
+
                 <fieldset>
                     <legend class="main-stormcenter-opinion">Comments</legend>
-                    <div class="buttongrid">
-                    <label class="aditionalinfo">Additional information or comments
-                    <textarea class="aditionalinfo" name="comments" rows="10"></textarea></label>
-                </div>
+                    <div>
+                        <label >Additional information or comments
+                        <textarea name="comments" rows="10"></textarea></label>
+                    </div>
                 </fieldset>
+
                 <div class="buttongrid"><input class="button" type="submit" value="Report"></div>
-                <div id="feedback"></div>
+
             </form>
             
         </main>

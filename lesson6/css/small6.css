@@ -274,6 +274,17 @@ main {
   margin-bottom: 1rem;
   text-align: center;
 }
+.main-gallery-grid h2 {
+  text-align: center;
+}
+.main-gallery p.plastvisit {
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 .main-gallery-grid div picture img {
   width: 100%;
   margin-bottom: 0.3rem;
@@ -287,6 +298,7 @@ main {
   filter: blur(0em);
   transition: filter 1s;
 }
+
 /*-----------------------------------Storm Center------------------------------------*/
 form {
   background-color: var(--first-color);

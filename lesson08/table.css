@@ -1,0 +1,149 @@
+:root {
+  --first-color: #084c61;
+  --second-color: #ffc857;
+  --third-color: #177e89;
+  --fourth-color: #323031;
+  --five-color: #db3a34;
+}
+main {
+  margin: 0.5rem;
+  max-width: 1500px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  font-family: Ubuntu, sans-serif;
+}
+header {
+  background-color: var(--first-color);
+  padding: 2rem 1rem;
+}
+footer {
+  background: #323031;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ffc857;
+}
+.lastfooter {
+  padding: 1rem;
+}
+
+/*-----------------------------------------Table--------------------------*/
+
+table {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  border: 3px solid rgb(228, 222, 222);
+  margin: 3rem auto;
+  max-width: 400px;
+  box-shadow: 6px 6px 9px #628ca6;
+}
+tbody {
+  font-size: 1.2rem;
+}
+
+tr:nth-child(odd) td {
+  background-color: #e7f0ed;
+}
+
+tr:nth-child(even) td {
+  background-color: #e7ffed;
+}
+
+thead tr:nth-child(1) {
+  background-color: #7fb9c2;
+  font-size: 1.8rem;
+}
+#resaltar {
+  background-color: #628ca6;
+  color: white;
+}
+
+thead tr:nth-child(2),
+#important {
+  background-color: #628ca6;
+  color: white;
+  font-size: 1.6rem;
+}
+td,
+th,
+tr {
+  text-align: center;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+th {
+  font-weight: bold;
+}
+td {
+  font-weight: 550;
+}
+tfoot {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 600px) {
+  table thead {
+    border: none;
+  }
+  table,
+  tr,
+  td,
+  th,
+  thead {
+    display: grid;
+  }
+  table {
+    box-shadow: none;
+    margin: 1rem;
+    width: 90%;
+  }
+  table tr {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+  table td {
+    border-bottom: none;
+    display: block;
+    font-size: 1rem;
+    text-align: right;
+  }
+  tbody tr:nth-of-type(1) {
+    display: none;
+  }
+  td:nth-of-type(1):before {
+    content: "Period";
+  }
+  td:nth-of-type(2):before {
+    content: "Sales";
+  }
+  td:nth-of-type(3):before {
+    content: "Global Sales";
+  }
+  table td::before {
+    float: left;
+  }
+  tfoot {
+    width: 100%;
+  }
+  table td:last-child {
+    border-bottom: 1px solid black;
+  }
+}

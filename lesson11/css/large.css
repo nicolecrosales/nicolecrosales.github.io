@@ -1,0 +1,91 @@
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  p,
+  a,
+  label,
+  input,
+  textarea,
+  .main-stormcenter-stormreport-regions {
+    font-size: 1.2rem;
+  }
+  .p-header {
+    font-size: 2rem;
+  }
+  nav button {
+    display: none;
+  }
+  nav ul.hide {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    float: left;
+    flex: 1;
+  }
+  nav ul li a {
+    border: none;
+    font-size: 1.2rem;
+  }
+  /*-------------------------------------Preston Town-----------------------------*/
+  .main-preston,
+  .main-thanks {
+    max-width: 900px;
+  }
+  .main-content-section2-5daysforecast-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    height: 50%;
+  }
+  .main-content-section2-5daysforecast-content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-content-section2-5daysforecast-content-grid-day {
+    background-color: var(--fourth-color);
+    color: var(--second-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  /*-------------------------------Gallery------------------------------------------*/
+  .main-gallery {
+    max-width: 1000px;
+  }
+  .main-gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .main-gallery-grid h2 {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  .main-gallery-grid div picture img:hover {
+    box-shadow: 1px 1px 4px 1px #084c61;
+  }
+  /*-----------------------------------Storm Center------------------------------------*/
+  .mainmargin {
+    display: block;
+    padding-bottom: 2.1rem;
+  }
+  .buttongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .button {
+    grid-column: 1/2;
+    width: 100%;
+  }
+
+  .main-thanks p a.goback {
+    font-size: 1.8rem;
+  }
+}

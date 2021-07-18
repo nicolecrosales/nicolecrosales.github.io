@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Outdoor | Preston</title>
+        <link rel="shortcut icon" href="/lesson4/images4/favicon2.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/lesson11/css/normalize.css">
+        <link href="/lesson11/css/small.css" rel="stylesheet" />
+        <link href="/lesson11/css/medium.css" rel="stylesheet" />
+        <link href="/lesson11/css/large.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div class="alert-friday">
+            Saturday = Preston Pancake in the Park! 9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <header>
+            <div><img src="/lesson4/images4/logo4.png" alt="logo"></div>
+            <div>
+                <h1>Outdoors Site</h1>
+                <p class="p-header">Cross borders, Go far</p>
+            </div>
+        </header>
+        <div class="navigation">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/lesson11/index.html">Home</a></li>
+                <li class="active"><a href="/lesson11/preston.html">Preston</a></li>
+                <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+                <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        </div>
+     
+        <main class="main-preston">
+            <div class="main-preston-content"></div>
+            <h2>Preston Idaho</h2>
+                <div class="main-content-section1">
+                    <picture>
+                        <source media="(max-width: 584px)" srcset="/Images/headerpreston350.jpg" >
+                        <source media="(max-width: 900px)" srcset="/Images/headerpreston650.jpg" >
+                        <source media="(max-width: 1400px)" srcset="/Images/headerpreston950.jpg" >   
+                        <img class="pictureimg" src="/Images/headerprestonoriginal2500.jpg" alt="photo1500" >
+                    </picture> 
+    
+                    <section class="main-content-section1-weathersummary">
+                        <h3 >Weather Summary</h3>
+                        <p class="main-content-section1-weathersummary-left-column">Currently:</p>
+                        <p class="main-content-section1-weathersummary-right-column"><span id="currently"></span></p>
+                        <p class="main-content-section1-weathersummary-left-column">Temperature:</p>
+                        <p class="main-content-section1-weathersummary-right-column"><span id="temp"></span> &#176;F</p>
+                        <p class="main-content-section1-weathersummary-left-column">Humidity:</p>
+                        <p class="main-content-section1-weathersummary-right-column"><span id="humidity"></span> %</p>
+                        <p class="main-content-section1-weathersummary-left-column">Wind Chill:</p>
+                        <p class="main-content-section1-weathersummary-right-column"><span id="windchill"></span></p>
+                        <p class="main-content-section1-weathersummary-left-column">Wind Speed:</p>
+                        <p class="main-content-section1-weathersummary-right-column"><span id="windspeed"></span> mph</p>
+                    </section>
+                </div>
+            
+
+                <section class="main-content-section2">
+                    <div class="main-content-section2-5daysforecast">
+                        <h3>5 Days Forecast</h3>
+                        <div class="main-content-section2-5daysforecast-content">
+                            <div class="main-content-section2-5daysforecast-content-grid" id="uno">
+                                <span class="main-content-section2-5daysforecast-content-grid-day" id="day1"></span>
+                                <img id="img1">
+                                <span class="main-content-section2-5daysforecast-content-data" id="temp1"></span>
+                            </div>
+                            <div class="main-content-section2-5daysforecast-content-grid" id="dos">
+                                <span class="main-content-section2-5daysforecast-content-grid-day" id="day2"></span>
+                                <img id="img2">
+                                <span class="main-content-section2-5daysforecast-content-data" id="temp2"></span>
+                            </div>
+                            <div class="main-content-section2-5daysforecast-content-grid" id="tres">
+                                <span class="main-content-section2-5daysforecast-content-grid-day" id="day3"></span>
+                                <img id="img3">
+                                <span class="main-content-section2-5daysforecast-content-data" id="temp3"></span>
+                            </div>
+                            <div class="main-content-section2-5daysforecast-content-grid" id="cuatro">
+                                <span class="main-content-section2-5daysforecast-content-grid-day" id="day4"></span>
+                                <img id="img4">
+                                <span class="main-content-section2-5daysforecast-content-data" id="temp4"></span>
+                            </div>
+                            <div class="main-content-section2-5daysforecast-content-grid" id="cinco">
+                                <span class="main-content-section2-5daysforecast-content-grid-day" id="day5"></span>
+                                <img id="img5">
+                                <span class="main-content-section2-5daysforecast-content-data" id="temp5"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="main-content-section3">
+                    <div class="main-content-section3-article">
+                    <h3>Tittle Article</h3>
+                    <img src="/Images/pexels-lefter-d-5195303.jpg" alt="photo article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie mattis leo, at eleifend est blandit eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer bibendum lectus sed libero lacinia, id maximus ipsum malesuada. Mauris iaculis lorem id ligula commodo, eget tempor eros pharetra. Suspendisse ullamcorper et elit et rutrum. Sed aliquam rutrum nunc, ac luctus tellus convallis a. Donec cursus iaculis magna, eu dignissim magna sodales porttitor. Morbi tincidunt viverra ornare. Pellentesque gravida, turpis eu sodales lobortis, sem ligula egestas tortor, vel lacinia odio lorem id lacus. Fusce mattis laoreet sem. Sed vulputate nunc sit amet felis pulvinar tristique. Nullam a magna viverra, maximus ante vel, efficitur ex. Sed a orci sit amet ex elementum lobortis. Donec a diam ligula.
+                       <br><br>
+                        Nunc facilisis at felis et tempor. Nunc faucibus, tellus eget pulvinar bibendum, nunc nisi blandit nibh, eget pretium diam tortor in mi. Vestibulum id nibh nunc. Donec at sapien id justo ornare posuere. Suspendisse condimentum, sem quis lobortis mollis, dolor ligula interdum nisl, non faucibus ligula metus ac arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur semper sodales sollicitudin. Quisque viverra eget massa vel mollis. Suspendisse varius tortor at velit mattis placerat. Sed pellentesque aliquet diam, quis consequat nibh malesuada quis. Nulla at dolor et metus mollis hendrerit. <br><br><a href="#">Continue reading...</a></p>
+                    
+                    
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content1">
+                <section class="footer-content1-section1">
+                    <h3>Contact Information</h3>
+                    <div class="footer-content1-section1-info">
+                        <h4>Preston Idaho</h4>
+                        <p><img src="/Images/mapicon.png" alt="map photo"> Preston Avenue, Preston, Idaho, EE. UU</p>
+                        <p><img src="/Images/mailicon.png" alt="mail icon"> contact@outdoor.com</p>
+                        <p><img src="/Images/phoneicon.png" alt="phone icon"> 999 999 9999</p>
+                    </div>
+
+                    <div class="footer-content1-section1-social">
+                        <a href="https://www.facebook.com" target="_blank"><img src="/Images/facebookicon.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="/Images/intagramicon.png" alt="instagram"></a>
+                    </div> 
+                </section>
+                <div class="footer-content1-section2">
+                    <a href="https://www.google.cl/maps/place/Preston+Ave,+Preston,+ID+83263,+EE.+UU./@42.099325,-111.8803287,17z/data=!3m1!4b1!4m5!3m4!1s0x8754f7ecfeb7b869:0x8abd165683b62e8d!8m2!3d42.099325!4d-111.87814" target="_blank"><img src="/Images/prestonmap.jpg" alt="Preston Map"></a>
+                </div>
+            </div>
+            <div class="footer-content2">
+                <p><span class="year">&copy;</span> <span class="year" id="currentyear"></span> Preston Idaho | Nicole Carrasco </p> 
+                <div class="footer-content2-date"><span id="date"></span></div>
+            </div>
+        </footer>
+        <script src="/lesson11/js/apitown.js"></script>
+        <script src="/lesson11/js/generalscript.js"></script>
+        <script src="/lesson11/js/windchilltown.js"></script>
+    </body>
+</html>

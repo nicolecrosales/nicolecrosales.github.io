@@ -1,0 +1,437 @@
+:root {
+  --first-color: #084c61;
+  --second-color: #ffc857;
+  --third-color: #177e89;
+  --fourth-color: #323031;
+  --five-color: #db3a34;
+}
+
+h1,
+h2,
+h3,
+h4,
+legend {
+  font-family: "IBM Plex Serif", serif;
+}
+h1 {
+  font-size: 1.6rem;
+  color: white;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+  color: white;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+h3,
+legend {
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: white;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+h4 {
+  text-align: left;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 0.7rem;
+}
+p,
+a,
+span,
+label,
+input,
+textarea,
+.main-stormcenter-stormreport-regions {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+.p-header {
+  font-size: 0.9rem;
+  text-align: left;
+  color: var(--second-color);
+  margin: 0;
+}
+p {
+  color: white;
+  padding-bottom: 1rem;
+}
+body {
+  background-color: var(--third-color);
+}
+.alert-friday {
+  padding: 1rem;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  display: none;
+}
+.visible {
+  display: block;
+}
+header {
+  background-color: var(--first-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+header img {
+  width: 35%;
+  padding-left: 1rem;
+}
+
+nav button {
+  margin-left: 40%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--second-color);
+  padding: 0.5rem;
+}
+
+nav {
+  background-color: var(--fourth-color);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.hide {
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: var(--second-color);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+}
+
+nav ul li.active a {
+  background-color: var(--second-color);
+  color: white;
+}
+
+nav ul.hide {
+  display: none;
+}
+main {
+  background-color: var(--third-color);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*-----------------------Preston Town-------------------------------------*/
+
+.main-preston-content h2 {
+  margin-left: 1.5rem;
+}
+
+.main-content-section1 picture img.pictureimg {
+  max-width: 100%;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+.main-content-section1-weathersummary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  background: var(--first-color);
+  box-shadow: 1px 1px 2px 1px #323031;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.main-content-section1-weathersummary h3 {
+  grid-column: 1/3;
+  text-align: left;
+}
+.main-content-section1-weathersummary-left-column {
+  grid-column: 1/2;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+.main-content-section1-weathersummary-right-column {
+  grid-column: 2/3;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+.main-content-section2 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.main-content-section2-5daysforecast {
+  border-radius: 3px;
+  background-color: var(--first-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.main-content-section2-5daysforecast h3 {
+  text-align: center;
+}
+.main-content-section2-5daysforecast-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+.main-content-section2-5daysforecast-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 1px 1px 2px 1px #323031;
+  border-radius: 3px;
+  background-color: var(--third-color);
+  width: 80%;
+  margin-bottom: 2rem;
+}
+.main-content-section2-5daysforecast-content-grid img {
+  width: 60%;
+  background-color: var(--third-color);
+}
+.main-content-section2-5daysforecast-content-grid-day {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.main-content-section2-5daysforecast-content-data {
+  background-color: --third-color;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.main-content-section3 {
+  width: 100%;
+  background: var(--first-color);
+  border-radius: 3px;
+  color: white;
+}
+.main-content-section3-article {
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.main-content-section3-article h3 {
+  text-align: left;
+}
+.main-content-section3-article p {
+  line-height: 20px;
+}
+.main-content-section3-article p a {
+  text-decoration: none;
+  color: var(--second-color);
+  font-style: italic;
+  display: block;
+}
+.main-content-section3-article p a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+.main-content-section3-article img {
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 2px 1px #323031;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+/*---------------------------- Gallery ----------------------------------------------*/
+.main-gallery-grid div {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.main-gallery-grid h2 {
+  text-align: center;
+}
+.main-gallery p.plastvisit {
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.main-gallery-grid div picture img {
+  width: 100%;
+  margin-bottom: 0.3rem;
+  border-radius: 3px;
+}
+.main-gallery-grid div picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+.main-gallery-grid div picture img {
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+/*-----------------------------------Storm Center------------------------------------*/
+form {
+  background-color: var(--first-color);
+  border-radius: 3px;
+  padding: 2rem;
+}
+label {
+  color: white;
+}
+.mainmargin {
+  display: block;
+  padding-bottom: 1.5rem;
+}
+input,
+textarea,
+.main-stormcenter-stormreport-regions {
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #1b1b1e;
+  border-radius: 10px;
+}
+input:focus,
+textarea:focus {
+  border-color: #6d676e;
+}
+textarea {
+  vertical-align: top;
+}
+.button {
+  color: var(--fourth-color);
+  padding: 1em 2em 1em 2em;
+  background-color: var(--second-color);
+  border-radius: 50px;
+  border: solid 2px var(--second-color);
+}
+.button:hover {
+  background-color: var(--fourth-color);
+  border: solid 2px var(--fourth-color);
+  color: white;
+}
+.main-stormcenter-1field,
+.buttongrid,
+.main-stormcenter-opinio-grid {
+  padding: 1.5rem 0rem;
+}
+
+.main-stormcenter-stormreport-rate-ranges {
+  width: 90%;
+}
+#ratingvalue {
+  color: white;
+}
+.option {
+  display: block;
+}
+.option input {
+  width: 20px;
+}
+
+/*------------------------------thanks----------------------------------------------*/
+.main-thanks {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.main-thanks h2 {
+  margin: 2rem 2rem;
+  width: 96%;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: var(--first-color);
+}
+.main-thanks p a.goback {
+  font-style: italic;
+  color: var(--second-color);
+  font-size: 1.4;
+}
+.main-thanks p {
+  text-align: center;
+}
+
+/*-------------------------------Footer--------------------------------------------*/
+footer {
+  background: #323031;
+  color: white;
+}
+.footer-content1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--first-color);
+}
+.footer-content1-section1 {
+  grid-row: 1/2;
+}
+.footer-content1-section1 h3 {
+  padding-top: 1.5rem;
+}
+.footer-content1-section1-info h4 {
+  padding-top: 1rem;
+}
+.footer-content1-section1-info p {
+  padding-bottom: 1rem;
+  line-height: 15px;
+  padding-left: 1.5rem;
+}
+.footer-content1-section1-info p img {
+  width: 1rem;
+}
+.footer-content1-section1-social {
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  padding-top: 0.4rem;
+}
+.footer-content1-section1-social img {
+  width: 1.7rem;
+}
+.footer-content1-section1-social a:hover img {
+  width: 1.8rem;
+}
+.footer-content1-section2 {
+  grid-row: 2/3;
+}
+.footer-content1-section2 a img {
+  width: 90%;
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+.footer-content2 {
+  margin-top: 1rem;
+  text-align: center;
+}
+.footer-content2-date {
+  padding-bottom: 1rem;
+}

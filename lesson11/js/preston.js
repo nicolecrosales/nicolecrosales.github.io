@@ -13,7 +13,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635
             let d = new Date(x.dt_txt);
             console.log(d);
             document.getElementById(`day${day+1}`).textContent = dayofWeek[d.getDay()];
-            document.getElementById(`temp${day+1}`).textContent = x.main.temp + ' °F';
+            document.getElementById(`temp${day+1}`).textContent = x.main.temp.toFixed(0) + ' °F';
             document.getElementById(`img1`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[0].weather[0].icon +'.png';
             document.getElementById(`img2`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[1].weather[0].icon +'.png';
             document.getElementById(`img3`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[2].weather[0].icon +'.png';
@@ -41,3 +41,37 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635
         });
     
 
+const prestondata= 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(prestondata)
+.then(function(response) {
+    return response.json();
+})
+.then(function(jsonObject) {
+    const towns = jsonObject['towns'];
+
+    const town = towns.filter(town => town.name == 'Preston')
+  
+    town.forEach(town => {
+    let card = document.createElement('section');
+    let h3 = document.createElement('h3');
+    let p1 = document.createElement('p');
+    let p2 = document.createElement('p');
+    let p3 = document.createElement('p');
+
+    h3.textContent = 'Upcoming Town Events';
+    card.appendChild(h3);
+
+    p1.textContent = town.events[0];
+    card.appendChild(p1);
+
+    p2.textContent = town.events[1];
+    card.appendChild(p2);
+
+    p3.textContent = town.events[2];
+    card.appendChild(p3);
+
+    document.querySelector('div.events').appendChild(card);
+  });
+
+});

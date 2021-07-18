@@ -33,6 +33,7 @@ legend {
   color: white;
   padding-top: 1rem;
   margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
 }
 h4 {
   text-align: left;
@@ -380,7 +381,21 @@ textarea {
 .main-thanks p {
   text-align: center;
 }
-
+/*-------------------------------Events---------------------------------------*/
+.events {
+  align-content: center;
+  margin: 2rem;
+}
+.events section {
+  text-align: center;
+  background-color: var(--third-color);
+  box-shadow: 5px 10px 15px #555454;
+  padding-bottom: 0.8rem;
+}
+.events section h3 {
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+}
 /*-------------------------------Footer--------------------------------------------*/
 footer {
   background: #323031;
@@ -396,9 +411,6 @@ footer {
 }
 .footer-content1-section1 h3 {
   padding-top: 1.5rem;
-}
-.footer-content1-section1-info h4 {
-  padding-top: 1rem;
 }
 .footer-content1-section1-info p {
   padding-bottom: 1rem;

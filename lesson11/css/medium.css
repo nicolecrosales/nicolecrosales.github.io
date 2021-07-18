@@ -1,16 +1,16 @@
-@media screen and (min-width: 584px) {
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding-bottom: 3rem;
     padding-top: 1rem;
   }
   h3,
   legend {
-    font-size: 1.4rem;
-    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
   }
   h4 {
     font-size: 1.3rem;
@@ -47,6 +47,9 @@
     font-size: 1.3rem;
     padding: 0.7rem;
   }
+  header {
+    padding: 2rem;
+  }
   /*------------------------Preston Town---------------------------------------*/
 
   .main-preston,
@@ -82,13 +85,20 @@
   }
 
   .main-content-section3-article img {
-    width: 250px;
+    width: 25%;
     float: right;
     margin-left: 1rem;
     margin-top: 0;
   }
   .main-content-section3-article div {
     float: left;
+  }
+  .main-content-section1,
+  .main-content-section2,
+  .main-content-section3,
+  .events,
+  .main-content-section1 h2 {
+    margin-bottom: 2rem;
   }
 
   /*-------------------------------Gallery------------------------------------------*/

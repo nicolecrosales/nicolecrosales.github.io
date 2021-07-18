@@ -4,7 +4,15 @@
     margin: 0;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    padding: 2.2rem 1.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  h4 {
+    font-size: 1.6;
   }
   p,
   a,
@@ -32,10 +40,16 @@
     border: none;
     font-size: 1.2rem;
   }
+  header {
+    padding: 3rem;
+  }
   /*-------------------------------------Preston Town-----------------------------*/
   .main-preston,
   .main-thanks {
     max-width: 900px;
+  }
+  .main-content-section1 {
+    margin-top: 2.2rem;
   }
   .main-content-section2-5daysforecast-content {
     display: grid;
@@ -54,6 +68,16 @@
     color: var(--second-color);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+  .main-content-section3-article img {
+    width: 50%;
+  }
+  .main-content-section1,
+  .main-content-section2,
+  .main-content-section3,
+  .events,
+  .main-content-section1 h2 {
+    margin-bottom: 3rem;
   }
   /*-------------------------------Gallery------------------------------------------*/
   .main-gallery {

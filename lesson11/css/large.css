@@ -45,7 +45,8 @@
   }
   /*-------------------------------------Preston Town-----------------------------*/
   .main-preston,
-  .main-thanks {
+  .main-thanks,
+  .hide {
     max-width: 900px;
   }
   .main-content-section1 {

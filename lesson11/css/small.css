@@ -551,7 +551,6 @@ main#main-home {
   text-align: center;
 }
 .main-content-section2-5daysforecast-content-data {
-  background-color: --third-color;
   color: white;
   width: 100%;
   text-align: center;
@@ -698,7 +697,7 @@ textarea {
 .main-thanks p a.goback {
   font-style: italic;
   color: var(--second-color);
-  font-size: 1.4;
+  font-size: 1.4rem;
 }
 .main-thanks p {
   text-align: center;

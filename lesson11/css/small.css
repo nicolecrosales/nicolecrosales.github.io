@@ -147,6 +147,328 @@ main {
   display: table;
   clear: both;
 }
+/*--------------------------------Home.........................................*/
+main#main-home {
+  padding: 0;
+}
+
+/*-------slider img--------*/
+
+#slider-box2 {
+  -moz-animation: autoSlider 30s infinite step-end;
+  -o-animation: autoSlider 30s infinite step-end;
+  -webkit-animation: autoSlider 30s infinite step-end;
+  animation: autoSlider 30s infinite step-end;
+
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  height: 100%;
+  width: 300%;
+}
+
+#slider-container2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-element2 {
+  float: left;
+  width: 33.333%;
+}
+
+@-moz-keyframes autoSlider {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  95% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@-webkit-keyframes autoSlider {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  95% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes autoSlider {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  95% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+#slider-container2 #slider-box2 .slider-element2 div picture picture img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+/*--------slider text-----*/
+#slider-container #slider-box .slider-element div p a {
+  text-decoration: none;
+  color: var(--second-color);
+  font-style: italic;
+  display: block;
+}
+#slider-container #slider-box .slider-element div p {
+  line-height: 20px;
+}
+#slider-container #slider-box .slider-element div p a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+#slider-box {
+  -moz-animation: autoSlider 30s infinite step-end;
+  -o-animation: autoSlider 30s infinite step-end;
+  -webkit-animation: autoSlider 30s infinite step-end;
+  animation: autoSlider 30s infinite step-end;
+
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+
+  height: 100%;
+  width: 300%;
+}
+
+#slider-container {
+  height: 30%;
+  margin-left: 1rem;
+  overflow: hidden;
+  text-align: left;
+  width: 80%;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  padding-left: 1rem;
+  opacity: 0.8;
+  z-index: 2;
+  position: absolute;
+  top: 11.5rem;
+  background: var(--first-color);
+  box-shadow: 1px 1px 2px 1px #323031;
+  border-radius: 3px;
+}
+
+.slider-element {
+  float: left;
+  width: 33.333%;
+}
+
+@-moz-keyframes autoSlider {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  95% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@-webkit-keyframes autoSlider {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  95% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes autoSlider {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  95% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+/*----------section 2 HOME --------*/
+
+.main-home-section2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+}
+
+.main-home-section2 section {
+  text-align: center;
+  background-color: var(--first-color);
+  box-shadow: 5px 10px 15px #555454;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.main-home-section2 h2 {
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+  text-align: center;
+  padding-top: 1rem;
+}
+.main-home-section2 section img {
+  width: 90%;
+  padding-bottom: 0.5rem;
+}
+
+.main-home-section3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  background-color: var(--first-color);
+  margin: 1.5rem 2rem 0 2rem;
+  padding: 2rem 0 1rem 0;
+}
+.main-home-section3 img {
+  width: 90%;
+}
+.main-home-section3 div {
+  width: 90%;
+}
+.main-home-section3 div p {
+  text-align: center;
+  line-height: 20px;
+}
+.main-home-section3 h3,
+.main-home-section3 h4 {
+  text-align: center;
+  padding-left: 0;
+}
 
 /*-----------------------Preston Town-------------------------------------*/
 

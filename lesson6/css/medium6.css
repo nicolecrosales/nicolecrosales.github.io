@@ -52,11 +52,27 @@
     max-height: 500px;
   }
   #slider-container {
-    top: 13rem;
-    width: 75%;
+    width: 73%;
     height: 40%;
   }
+  #main-home h2 {
+    font-size: 2rem;
+    color: white;
+  }
 
+  #main-home h3 {
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  #main-home h4 {
+    font-size: 1.3rem;
+  }
+  #main-home p,
+  a,
+  span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+  }
   .main-home-section2 section {
     display: grid;
     grid-template-columns: 1fr 1fr;

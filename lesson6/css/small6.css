@@ -171,6 +171,9 @@ main#main-home {
 #slider-container2 {
   overflow: hidden;
   width: 100%;
+  grid-column: 1/2;
+  grid-row: 1;
+  z-index: 1;
 }
 
 .slider-element2 {
@@ -301,19 +304,43 @@ main#main-home {
   height: 100%;
   width: 300%;
 }
-
+.main-home-section1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#main-home h2 {
+  font-size: 1.8rem;
+}
+#main-home .main-home-section1 h2 {
+  padding-bottom: 0.3rem;
+}
+#main-home h3 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+#main-home h4 {
+  font-size: 1.1rem;
+}
+#main-home p,
+a,
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
 #slider-container {
-  height: 30%;
+  margin-top: 1rem;
   margin-left: 1rem;
   overflow: hidden;
   text-align: left;
-  width: 80%;
+  width: 83%;
+  height: 75%;
   padding-top: 0.9em;
-  padding-bottom: 0.9em;
-  padding-left: 1rem;
+  padding-left: 0.3rem;
   opacity: 0.8;
-  position: absolute;
-  top: 11.5rem;
+  grid-column: 1/2;
+  grid-row: 1;
+  z-index: 2;
+
   background: var(--first-color);
   box-shadow: 1px 1px 2px 1px #323031;
   border-radius: 3px;

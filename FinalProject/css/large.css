@@ -1,0 +1,98 @@
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p,
+  a,
+  span {
+    font-size: 1.3rem;
+  }
+  header {
+    background-image: url(/FinalProject/Images/headerhomeoriginal2.jpg);
+    background-position: center right;
+    padding-top: 1.5rem;
+    height: 120px;
+    text-align: right;
+    padding-right: 5rem;
+  }
+  .navigation-and-logo {
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+  }
+  .navigation {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  nav button {
+    display: none;
+  }
+  nav ul.hide {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.8rem 2%;
+  }
+  .navigation-and-logo a.logo-link img {
+    width: 10%;
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+  }
+  main {
+    padding: 3rem 0.5rem;
+  }
+  /*-------------------------------------Home-------------------------------------*/
+  .phome {
+    display: block;
+  }
+  .home-local {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /*---------------------------------------------footer-------------------------*/
+  .footer1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  .link {
+    grid-column: 1/2;
+  }
+  .contact {
+    grid-column: 2/3;
+    margin-left: -6rem;
+  }
+  .footer1 iframe {
+    grid-column: 3/4;
+    height: 100%;
+  }
+  .footer1 a {
+    padding-bottom: 1rem;
+  }
+  .footer1 .contact h3,
+  .footer1 .contact h4,
+  .footer1 .contact p {
+    padding-bottom: 1rem;
+  }
+}

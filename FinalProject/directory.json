@@ -1,0 +1,66 @@
+{
+    "business": [{
+            "name": "Reitz Propiedades",
+            "photo": "logo_reitz.png",
+            "number": "+ 56 9 33973792",
+            "website": "https://www.reitzpropiedades.cl/",
+            "address": "Address: Marcos Montt 270- Viña del Mar"
+        },
+        {
+            "name": "Decathlon",
+            "photo": "Decathlon_Logo.png",
+            "number": "+56 32 2123456",
+            "website": "https://www.decathlon.cl/",
+            "address": "Address: Av. Benidorm N° 805"
+        },
+        {
+            "name": "Mall Marina",
+            "photo": "logo-mall.png",
+            "number": "+56 32 2161203",
+            "website": "https://www.mallmarina.cl/",
+            "address": "Address: Av. Libertad 1348, Viña del Mar"
+        },
+        {
+            "name": "PUMA",
+            "photo": "puma-logo.png",
+            "number": "+56 32 2123456",
+            "website": "https://cl.puma.com/store-locator-vinadelmar.html",
+            "address": "Address: Av. Libertad 1348, Local 237"
+        },
+        {
+            "name": "Barbizon",
+            "photo": "barbizon.png",
+            "number": "+56 32 2975027",
+            "website": "https://www.bbz.cl/products/vina",
+            "address": "Address: San Martin 620, Viña del Mar"
+        },
+        {
+            "name": "Vida Natura",
+            "photo": "vidanatura.png",
+            "number": "+56 9 9996 4710",
+            "website": "https://vidanaturachile.cl/",
+            "address": "Address: Avenida libertad 67, Edificio Nuevo Centro II, Viña del Mar"
+        },
+        {
+            "name": "Belda Cycles",
+            "photo": "LOGO-BELDA.png",
+            "number": "+56 32 2156273",
+            "website": "https://beldacycles.cl/content/19-tienda-vina-del-mar",
+            "address": "Address: 14 Norte 1001 esquina 3 Oriente, Viña del Mar"
+        },
+        {
+            "name": "Paseo Viña Centro",
+            "photo": "paseovina.png",
+            "number": "+56 2 2573 9888",
+            "website": "http://www.paseovinacentro.cl/",
+            "address": "Address: Av. Valparaiso #1070, Viña del Mar"
+        },
+        {
+            "name": "BP Iluminación",
+            "photo": "bplogo.jpg",
+            "number": "+56 32 2123456",
+            "website": "https://byp.cl/byp/tiendas/vina-del-mar",
+            "address": "Address: Camino Internacional 2440, Local 08-09, Viña del Mar"
+        }
+    ]
+}

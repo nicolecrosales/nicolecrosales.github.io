@@ -57,16 +57,22 @@
     top: 1rem;
     left: 4rem;
   }
-  main {
+
+  /*-------------------------------------Home-------------------------------------*/
+  .home1 {
     padding: 3rem 0.5rem;
   }
-  /*-------------------------------------Home-------------------------------------*/
   .phome {
     display: block;
   }
   .home-local {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .home-local section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
   /*---------------------------------------------footer-------------------------*/
   .footer1 {

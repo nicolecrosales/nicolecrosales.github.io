@@ -107,13 +107,12 @@ nav ul.hide {
   display: table;
   clear: both;
 }
-main {
+
+/*----------------------------------------Home----------------------------------------------------------*/
+.home1 {
   padding: 2rem;
   max-width: 1000px;
   margin: 0 auto;
-}
-/*----------------------------------------Home----------------------------------------------------------*/
-.home1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
@@ -126,27 +125,43 @@ main {
   display: none;
 }
 /*-------home local-------*/
+main .home-local-main {
+  background-color: var(--six-color);
+}
 .home-local {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 0.5rem;
-  margin: 0.5rem 1rem;
-  padding: 1rem;
+  width: 100%;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .home-local section {
   text-align: center;
+  box-shadow: 5px 10px 5px #1f2136;
   background-color: var(--first-color);
-  box-shadow: 5px 10px 15px #555454;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
 }
-.home-local h2 {
+.home-local section h2 {
   background-color: var(--fourth-color);
-  color: var(--second-color);
-  text-align: center;
+  color: white;
+  text-align: left;
   padding-top: 1rem;
+  margin-left: 1rem;
 }
+.home-local section p {
+  text-align: left;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: white;
+  margin-left: 1rem;
+}
+
 .home-local img {
   width: 90%;
   padding-bottom: 0.5rem;

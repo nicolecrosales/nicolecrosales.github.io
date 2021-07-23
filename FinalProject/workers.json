@@ -1,6 +1,6 @@
 {
     "workers": [{
-            "name": "Director",
+            "name": "General Director",
             "photo": "photocarnet.jpg",
             "namep": "Judith Arancibia Canales",
             "area": "Economic Development",
@@ -14,7 +14,7 @@
             "contact": "mauriciocanales@ccv.cl"
         },
         {
-            "name": "Director",
+            "name": "Executive Director",
             "photo": "photocarnet.jpg",
             "namep": "Francisco Poblete Falabella",
             "area": "Productive Development",

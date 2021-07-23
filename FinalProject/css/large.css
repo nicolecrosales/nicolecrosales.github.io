@@ -185,7 +185,7 @@
   }
   .dic {
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
   }
   .dic h1 {

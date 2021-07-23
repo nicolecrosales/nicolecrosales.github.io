@@ -98,7 +98,7 @@ fetch(requestURL)
                 }
         });
         /*----------------------------------------------summary weather------------*/
-        const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f";
+        const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3868121&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f";
 
     fetch(apiURL)
         .then((response) => response.json())
@@ -110,7 +110,7 @@ fetch(requestURL)
             document.getElementById('humidity').innerHTML = town.main.humidity;
         });
         /*--------------------------------forecast----------------- */
-        fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+        fetch("https://api.openweathermap.org/data/2.5/forecast?id=3868121&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
         console.log(jsObject);

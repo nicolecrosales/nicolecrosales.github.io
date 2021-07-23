@@ -65,9 +65,16 @@
     margin-top: 1rem;
   }
   .home-local,
-  .home-weather {
+  .home-weather,
+  .events {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .events h1 {
+    grid-column: 1/4;
+  }
+  .home3 p {
+    line-height: 30px;
   }
   .main-content-section2 {
     grid-column: 2/4;

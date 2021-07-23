@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Get your membership | ccv</title>
+    <link rel="shortcut icon" href="/FinalProject/Images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/FinalProject/css/normalize.css" />
+    <link href="/FinalProject/css/small.css" rel="stylesheet" />
+    <link href="/FinalProject/css/medium.css" rel="stylesheet" />
+    <link href="/FinalProject/css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <header>
+      <h1>chamber of Commerce</h1>
+      <p>Municipality of Viña del Mar</p>      
+    </header>
+    <div class="navigation-and-logo">
+      <a class="logo-link" href="/FinalProject/index.html"><img src="/FinalProject/Images/logo130x110white.png" alt="logo"></a>
+  
+      <div class="navigation">
+        <nav class="clearfix">
+          <button onclick="toggleMenu()">&#9776;</button>
+          <ul id="primaryNav" class="hide">
+            <li><a href="/FinalProject/index.html">Home</a></li>
+            <li><a href="/FinalProject/city.html">Viña del Mar</a></li>
+            <li class="active"><a href="/FinalProject/join.html">Be Part</a></li>
+            <li><a href="/FinalProject/directory.html">Directory</a></li>
+            <li><a href="/FinalProject/contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div> 
+    </div>
+
+
+    <main>
+      
+
+      <div class="home3">  
+          <h2>
+            Get your membership
+          </h2>   
+          <p>Our mission is to contribute to the economic growth of the city, 
+              as well as to the development of each of the citizens, 
+              in order to help them achieve both professionally and personally.<br><br>
+              By being part of this, you join a great network of investors, 
+              entrepreneurs and tenants willing to boost your business and take it to a higher level </p>
+            <h3>Join and grow with us!</h3>
+       
+            <form target="_self" action="thanksstorm.html">
+
+                <fieldset>
+                    <legend class="main-stormcenter-aboutme">About me</legend>
+                    <div class="main-stormcenter-1field">
+                        <label class="mainmargin">Full Name*<input type="text" minlength="5" pattern="[A-Za-z]+{5,100}" placeholder="Full Name" name="fname" required></label>
+                        <label class="mainmargin">Email*<input type="email" placeholder="example@gmail.com" name="email" required></label>
+                        <label class="mainmargin">Phone*<input type="tel" placeholder="Phone number" name="phone" required></label>
+                        <label class="mainmargin">Zip Code*<input type="number" placeholder="Zip Code" name="zcode" required></label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Report</legend>
+                    <div class="main-stormcenter-1field">
+                        <label class="mainmargin">Storm Date*<input type="date" name="date"></label>
+                        <div>
+                            <label class="mainmargin">Select Storm Area<br>
+                                <select class="main-stormcenter-stormreport-regions" name="regions">
+                                    <option value="" disabled="" selected ="">--Chose a Region--</option>
+                                    <option value="Preston">Preston</option>
+                                    <option value="Soda Springs">Soda Springs</option>
+                                    <option value="Fish Haven">Fish Haven</option>
+                                </select>
+                            </label>
+                        </div>
+                        <label class="mainmargin">Select The Storm Events<input type="text" list="storms">
+                            <datalist id="storms">            
+                                <option class="main-stormcenter-stormreport-selectevents-option" value="" disabled="" selected="">--Select the storm type--</option>
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurracaine"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
+                            </datalist>
+                        </label>
+                        <div class="mainmargin">
+                            <label class="main-stormcenter-stormreport-rate" for="rating">Rate Storm (1 to 10): &nbsp;&nbsp;&nbsp;</label>
+                            <input class="main-stormcenter-stormreport-rate-ranges" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
+
+                            <datalist id="tickmarks">
+                                <option value="0">
+                                <option value="1">
+                                <option value="2">
+                                <option value="3">
+                                <option value="4">
+                                <option value="5">
+                                <option value="6">
+                                <option value="7">
+                                <option value="8">
+                                <option value="9">
+                                <option value="10">
+                            </datalist>
+                        </div>
+                     
+                        <div>
+                            <label class="mainmargin" >Are You In Danger?</label>
+                            <div class="optiondiv">
+                                <label class="option"><input type="radio" name="response" value="yes"> Yes.</label>
+                                <label class="option"><input type="radio" name="response" value="maybe"> Maybe.</label>
+                                <label class="option"><input type="radio" name="response" value="no"> No.</label>
+                            </div>    
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="main-stormcenter-opinion">Comments</legend>
+                    <div>
+                        <label >Additional information or comments
+                        <textarea name="comments" rows="10"></textarea></label>
+                    </div>
+                </fieldset>
+
+                <div class="buttongrid"><input class="button" type="submit" value="Report"></div>
+
+            </form>
+
+
+
+
+    </main>
+
+    <footer>
+      <div class="footer1"> 
+        <div class="link">
+          <a href="/FinalProject/index.html" target="_blank">Home</a>
+          <a href="/FinalProject/city.html" target="_blank">Viña del Mar</a>
+          <a href="/FinalProject/join.html" target="_blank">Be part</a>
+          <a href="/FinalProject/directory.html" target="_blank">Directory</a>
+          <a href="/FinalProject/contact.html" target="_blank">Contact us</a>
+          <div class="social"><a href="https://www.facebook.com" target="_blank"><img src="/Images/facebookicon.png" alt="facebook"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="/Images/intagramicon.png" alt="instagram"></a></div>
+        </div>
+        <div class="contact">
+          <h3>Municipality of Viña del Mar</h3>
+          <h4>Chamber of Commerce</h4>
+          <p><img src="/Images/mapicon.png" alt="map photo"> Quinta Arlegui 615, Viña del Mar, Valparaíso.</p>
+          <p><img src="/Images/mailicon.png" alt="mail icon"> contact@ccv.com</p>
+          <p><img src="/Images/phoneicon.png" alt="phone icon"> +56 32 2123456</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.2527889837957!2d-71.55576868566604!3d-33.02346998089823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dde1ec219a11%3A0x6d82f657ea105063!2sArlegui%20615%2C%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso!5e0!3m2!1ses-419!2scl!4v1626925343280!5m2!1ses-419!2scl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>  
+
+      <div class="footer2">
+         <p>&copy; <span id="year"></span> Chamber of Commerce</p>
+         <p>by Nicole Carrasco</p>
+        <p class="footer-date"><span id="date"></span></p> | <p class="lastModified">Last Modified: <span id="display"></span></p>
+      </div>
+      
+      
+      
+    </footer>
+    <script src="/FinalProject/js/city.js"></script>
+  </body>
+</html>
+    
+   
+ 

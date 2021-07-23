@@ -1,0 +1,24 @@
+{
+    "events": [{
+            "name": "Secure Investment Seminar",
+            "date": "Monday 26, July",
+            "time": "18:00",
+            "for": "Citizens",
+            "address": "Castillo Wulff, Avenida Marina 37, Avenida Marina, Viña del Mar"
+        },
+        {
+            "name": "Free Fair",
+            "date": "Monday 2, August to Friday 6, August",
+            "time": "9:00 to 20:00",
+            "for": "Citizens",
+            "address": "Avenida Valparaiso 1070, Viña del Mar"
+        },
+        {
+            "name": "Annual investment event",
+            "date": "Thursday 12, July 2021",
+            "time": "8:00",
+            "for": "Partners",
+            "address": "Sheraton Hotel, Av. Marina N 15, Viña del Mar."
+        }
+    ]
+}

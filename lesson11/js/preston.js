@@ -37,7 +37,6 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635
             document.getElementById('temp').innerHTML = Math.round(town.main.temp);
     
             document.getElementById('humidity').innerHTML = town.main.humidity;
-            document.getElementById('windspeed').innerHTML = Math.round(town.wind.speed);
         });
     
 

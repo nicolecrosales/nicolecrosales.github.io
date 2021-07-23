@@ -1,5 +1,5 @@
 :root {
-  --first-color: #12263a;
+  --first-color: rgb(18, 38, 58);
   --two-color: #b0413e;
   --three-color: #c4d7f2;
   --four-color: #f6ce3c;
@@ -117,53 +117,261 @@ nav ul.hide {
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-bottom: 2rem;
+  align-items: center;
 }
+main #city1 {
+  margin-top: -3rem;
+}
+.home2 {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.home2 picture img {
+  width: 100%;
+}
+.home1 img {
+  width: 100%;
+}
+
 .box-text {
   padding: 0.5rem;
 }
-.phome {
+.home-weather h2 {
+  grid-column: 1/2;
+}
+/*-------------ventana-----------------------*/
+.ventana {
+  background-color: rgb(18, 38, 58, 0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+
+  animation: modal 2s 3s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+@keyframes modal {
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.ventana p,
+.ventana h4 {
+  color: white;
+  padding-bottom: 0.9rem;
+}
+.ventana p {
+  font-size: 0.9rem;
+}
+.ventana h4 {
+  font-size: 1rem;
+}
+.ventana h2 {
+  font-size: 2rem;
+  color: var(--four-color);
+  padding-top: 1rem;
+}
+.ventanagrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--first-color);
+  width: 70%;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  justify-items: center;
+  gap: 1rem;
+}
+.ventana div.linksventana {
+  display: grid;
+}
+.ventana img {
+  width: 90%;
+  padding-bottom: 0.5rem;
+}
+.ventana a {
+  margin-top: 2rem;
+  color: var(--four-color);
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.ventana a:hover {
+  color: var(--two-color);
+  font-size: 1.1rem;
+}
+#cerrar {
+  display: none;
+}
+#cerrar + label {
+  position: fixed;
+  color: white;
+  background-color: var(--two-color);
+  z-index: 50;
+  height: 40px;
+  width: 40px;
+  font-size: 2rem;
+  border-radius: 50%;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  animation: modal 2s 3s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+#cerrar:checked + label,
+#cerrar:checked ~ .ventana {
   display: none;
 }
 /*-------home local-------*/
 main .home-local-main {
   background-color: var(--six-color);
+  padding: 2rem 2rem 1rem 2rem;
 }
-.home-local {
+main .home-weather {
+  background-color: var(--four-color);
+}
+main .home-local-main2 {
+  background-color: var(--four-color);
+  padding: 2rem 2rem 1rem 2rem;
+}
+.home-local,
+.home-weather {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  padding: 2rem;
   max-width: 1000px;
   margin: 0 auto;
 }
-
 .home-local section {
   text-align: center;
   box-shadow: 5px 10px 5px #1f2136;
   background-color: var(--first-color);
   padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr;
+  width: 100%;
+}
+.home-local section img {
   width: 90%;
+  height: 120px;
+  margin: 1rem;
 }
 .home-local section h2 {
-  background-color: var(--fourth-color);
-  color: white;
+  color: var(--four-color);
   text-align: left;
-  padding-top: 1rem;
+  padding-top: 2rem;
   margin-left: 1rem;
 }
 .home-local section p {
   text-align: left;
-  padding-top: 1rem;
   font-size: 0.9rem;
   color: white;
   margin-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .home-local img {
   width: 90%;
+  padding-bottom: 0.5rem;
+}
+/*-------weather-----*/
+.main-content-section1-weathersummary {
+  background: var(--six-color);
+  box-shadow: 5px 10px 5px #1f2136;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.main-content-section1-weathersummary div {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+.main-content-section1-weathersummary h3 {
+  grid-column: 1/3;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+.main-content-section1-weathersummary-left-column {
+  grid-column: 1/2;
+  padding-bottom: 0.5rem;
+}
+.main-content-section1-weathersummary-right-column {
+  grid-column: 2/3;
+  padding-bottom: 0.5rem;
+} /*------------ forecast ---------*/
+.main-content-section2 {
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 5px 10px 5px #1f2136;
+  border-radius: 3px;
+  background-color: var(--six-color);
+}
+.main-content-section2-5daysforecast {
+  border-radius: 3px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.main-content-section2-5daysforecast h3 {
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+.main-content-section2-5daysforecast span {
+  color: white;
+}
+.main-content-section2-5daysforecast-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+.main-content-section2-5daysforecast-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 5px 10px 5px #1f2136;
+  border-radius: 3px;
+  width: 80%;
+  margin-bottom: 2rem;
+  background-color: var(--first-color);
+}
+.main-content-section2-5daysforecast-content-grid img {
+  width: 60%;
+  background-color: var(--third-color);
+}
+.main-content-section2-5daysforecast-content-grid-day {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.main-content-section2-5daysforecast-content-data {
+  color: white;
+  width: 100%;
+  text-align: center;
   padding-bottom: 0.5rem;
 }
 /*--------slider--------*/
@@ -288,6 +496,27 @@ main .home-local-main {
 #slider-container2 #slider-box2 .slider-element2 img {
   max-width: 100%;
   border-radius: 3px;
+}
+/*-------------------*/
+.home1 img.imgcall {
+  width: 100%;
+}
+.home1 .botones {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.home1 .botones a {
+  text-decoration: none;
+  padding: 2rem 3rem;
+  margin-top: 2rem;
+  background-color: var(--first-color);
+  color: var(--four-color);
+  border-radius: 30px;
+  font-weight: 600;
+}
+.home1 .botones a:hover {
+  background-color: var(--four-color);
+  color: var(--first-color);
 }
 
 /*-------------------------------Footer--------------------------------------------*/

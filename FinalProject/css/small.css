@@ -356,6 +356,10 @@ main .home-local-main {
   background-color: var(--six-color);
   padding: 2rem 2rem 1rem 2rem;
 }
+.home-local-main5 {
+  background-color: var(--six-color);
+  padding: 2rem 2rem 1rem 2rem;
+}
 main .home-weather {
   background-color: var(--four-color);
 }
@@ -365,12 +369,17 @@ main .home-local-main2 {
 }
 .home-local,
 .home-weather,
-.preevents,
-.dic {
+.preevents {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
   max-width: 1000px;
+  margin: 0 auto;
+}
+.dic {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
   margin: 0 auto;
 }
 .home-local section,

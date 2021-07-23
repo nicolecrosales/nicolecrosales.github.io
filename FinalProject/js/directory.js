@@ -37,3 +37,13 @@ const requestURL1 = 'https://nicolecrosales.github.io/FinalProject/directory.jso
                 }
         
         });
+
+
+function grid() {
+    document.querySelector('.gridback').style.display="block";
+    document.querySelector('.gridlist').style.display="none";
+}
+function list() {
+    document.querySelector('.gridlist').style.display="block";
+    document.querySelector('.gridback').style.display="none";
+}

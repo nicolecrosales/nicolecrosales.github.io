@@ -1,6 +1,6 @@
-const requestURL1 = 'https://nicolecrosales.github.io/FinalProject/directory.json';
+const requestURL = 'https://nicolecrosales.github.io/FinalProject/directory2.json';
 
-    fetch(requestURL1)
+    fetch(requestURL)
         .then(function (response) {
             return response.json();
         })
@@ -23,7 +23,7 @@ const requestURL1 = 'https://nicolecrosales.github.io/FinalProject/directory.jso
                 logo1.setAttribute('alt', ` ${town[i].name}`);
                 num1.innerHTML = 'Number: ' + `${town[i].number}`;
                 web1.innerHTML = 'Website: ' + `${town[i].website}`;
-                add1.innerHTML = `${town1[i].address}`;
+                add1.innerHTML = `${town[i].address}`;
     
                 
     

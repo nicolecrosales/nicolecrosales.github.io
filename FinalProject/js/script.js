@@ -19,44 +19,83 @@ document.querySelector("#date").textContent =  current;
 /*-----------------------Last Modified------------------------------------*/
 document.querySelector("#display").innerHTML = document.lastModified;
 /*----------------------------------local home-------------------------------*/
-const requestURL = 'https://nicolecrosales.github.io/FinalProject/directory.json';
+const requestURL1 = 'https://nicolecrosales.github.io/FinalProject/directory.json';
 
-    fetch(requestURL)
+    fetch(requestURL1)
         .then(function (response) {
             return response.json();
         })
         .then(function (jsonObject) {
-            const towns = jsonObject['business'];
-            const town = towns.filter(x => x.name == 'Mall Marina' || x.name == 'Vida Natura' || x.name == 'Paseo Viña Centro')
+            const towns1 = jsonObject['business'];
+            const town1 = towns1.filter(x => x.name == 'Mall Marina' || x.name == 'Vida Natura' || x.name == 'Paseo Viña Centro')
     
-            for (let i = 0; i < town.length; i++) {
-                let card = document.createElement('section');
+            for (let i = 0; i < town1.length; i++) {
+                let card1 = document.createElement('section');
                 
-                let h2 = document.createElement('h2');
+                let h21 = document.createElement('h2');
                 let logo = document.createElement('img');
                 let num = document.createElement('p');
                 let web = document.createElement('p');
                 let add = document.createElement('p');
                 
         
+                h21.innerHTML = `${town1[i].name}`;
+                logo.setAttribute('src', `Images/${town1[i].photo}`);
+                logo.setAttribute('alt', ` ${town1[i].name}`);
+                num.innerHTML = 'Number: ' + `${town1[i].number}`;
+                web.innerHTML = 'Website: ' + `${town1[i].website}`;
+                add.innerHTML = `${town1[i].address}`;
+    
+                
+    
+                    card1.appendChild(h21);
+                    card1.appendChild(logo);
+                    card1.appendChild(num);
+                    card1.appendChild(web);
+                    card1.appendChild(add);
+                    
+                    document.querySelector('.home-local').appendChild(card1);
+                }
+        
+        });
+        /*------------------------------------event--------------------------------*/
+        const requestURL = 'https://nicolecrosales.github.io/FinalProject/events.json';
+
+fetch(requestURL)
+.then(function (response) {
+    return response.json();
+})
+.then(function (jsonObject) {
+            const towns = jsonObject['events'];
+            const town = towns.filter(x => x.name == 'Secure Investment Seminar' || x.name == 'Free Fair' || x.name == 'Annual investment event')
+    
+            for (let i = 0; i < town.length; i++) {
+                let card = document.createElement('section');
+                
+                let h2 = document.createElement('h2');
+                let dat = document.createElement('h4');
+                let tim = document.createElement('p');
+                let fo = document.createElement('p');
+                let add = document.createElement('p');
+                
+        
                 h2.innerHTML = `${town[i].name}`;
-                logo.setAttribute('src', `Images/${town[i].photo}`);
-                logo.setAttribute('alt', ` ${town[i].name}`);
-                num.innerHTML = 'Number: ' + `${town[i].number}`;
-                web.innerHTML = 'Website: ' + `${town[i].website}`;
-                add.innerHTML = `${town[i].address}`;
+                dat.innerHTML = `${town[i].date}`;
+                tim.innerHTML = 'Time: ' + `${town[i].time}`;
+                fo.innerHTML = 'Guest: ' + `${town[i].for}`;
+                add.innerHTML = 'Address: ' + `${town[i].address}`;
+                
     
                 
     
                     card.appendChild(h2);
-                    card.appendChild(logo);
-                    card.appendChild(num);
-                    card.appendChild(web);
+                    card.appendChild(dat);
+                    card.appendChild(tim);
+                    card.appendChild(fo);
                     card.appendChild(add);
                     
-                    document.querySelector('.home-local').appendChild(card);
+                    document.querySelector('.events').appendChild(card);
                 }
-        
         });
         /*----------------------------------------------summary weather------------*/
         const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f";

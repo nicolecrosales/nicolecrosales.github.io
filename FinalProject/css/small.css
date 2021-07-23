@@ -9,8 +9,12 @@
 }
 h2,
 h3,
-h4 {
+h4,
+legend {
   font-family: "Montserrat", sans-serif;
+}
+legend {
+  color: var(--four-color);
 }
 h1 {
   font-size: 2rem;
@@ -22,7 +26,8 @@ h2 {
   font-family: "Bebas Neue", cursive;
   padding-bottom: 1rem;
 }
-h3 {
+h3,
+legend {
   font-size: 1rem;
   font-weight: 600;
 }
@@ -36,6 +41,10 @@ span {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   line-height: 20px;
+}
+label,
+input {
+  font-family: "Montserrat", sans-serif;
 }
 header {
   background-image: url(/FinalProject/Images/headerhome584.jpg);
@@ -131,6 +140,7 @@ nav ul.hide {
 }
 .home3 h3 {
   color: var(--two-color);
+  padding-bottom: 1rem;
 }
 .home p {
   line-height: 20px;
@@ -188,7 +198,9 @@ main #city1 {
   color: white;
   padding-bottom: 0.9rem;
 }
-.ventana p {
+.ventana p,
+label,
+input {
   font-size: 0.9rem;
 }
 .ventana h4 {
@@ -542,8 +554,99 @@ main .home-local-main2 {
 .home1 .botones a:hover {
   background-color: var(--four-color);
   color: var(--first-color);
+} /*--------------------------------------JOIN--------------------------------------*/
+form {
+  background-color: var(--first-color);
+  border-radius: 3px;
+  padding: 2rem;
+}
+form.form2 {
+  padding: 2rem 0;
+}
+.member {
+  padding-bottom: 1rem;
+}
+label {
+  color: white;
 }
 
+.mainmargin {
+  display: block;
+  padding-bottom: 1.5rem;
+}
+input,
+textarea,
+.main-stormcenter-stormreport-regions {
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #1b1b1e;
+  border-radius: 10px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6d676e;
+}
+textarea {
+  vertical-align: top;
+}
+.button {
+  color: black;
+  padding: 1em 2em 1em 2em;
+  background-color: var(--four-color);
+  border-radius: 50px;
+  border: solid 2px var(--four-color);
+}
+.button:hover {
+  background-color: var(--six-color);
+  border: solid 2px var(--six-color);
+  color: white;
+}
+.main-stormcenter-1field,
+.buttongrid,
+.main-stormcenter-opinio-grid {
+  padding: 1.5rem 0rem;
+}
+
+.main-stormcenter-stormreport-rate-ranges {
+  width: 90%;
+}
+#ratingvalue {
+  color: white;
+}
+.option {
+  display: block;
+}
+.option input {
+  width: 20px;
+}
+.optiondiv .option {
+  padding-top: 1rem;
+}
+/*-------------------------------------------CONTACT-------------------*/
+.myform {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right: 1rem;
+}
+.myform form {
+  background-color: white;
+}
+.myform form label,
+.myform form input,
+.myform form p {
+  color: black;
+}
+.myform h2 {
+  text-align: center;
+}
+.myform p {
+  text-align: center;
+}
+.myform form legend {
+  color: var(--first-color);
+}
 /*-------------------------------Footer--------------------------------------------*/
 .footer1 {
   background-color: var(--five-color);

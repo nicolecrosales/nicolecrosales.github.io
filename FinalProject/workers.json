@@ -1,0 +1,33 @@
+{
+    "workers": [{
+            "name": "Director",
+            "photo": "photocarnet.jpg",
+            "namep": "Judith Arancibia Canales",
+            "area": "Economic Development",
+            "contact": "juditharancibia@ccv.cl"
+        },
+        {
+            "name": "Sub Director",
+            "photo": "photocarnet.jpg",
+            "namep": "Mauricio Canales Fuentes",
+            "area": "Economic Development",
+            "contact": "mauriciocanales@ccv.cl"
+        },
+        {
+            "name": "Director",
+            "photo": "photocarnet.jpg",
+            "namep": "Francisco Poblete Falabella",
+            "area": "Productive Development",
+            "contact": "franciscopoblete@ccv.cl"
+        },
+        {
+            "name": "Director",
+            "photo": "photocarnet.jpg",
+            "namep": "Emilia Villalobos Inostroza",
+            "area": "Economic Study",
+            "contact": "emiliavillalobos@ccv.cl"
+        }
+    ]
+
+    
+}

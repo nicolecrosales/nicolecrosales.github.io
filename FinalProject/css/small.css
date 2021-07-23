@@ -158,6 +158,33 @@ nav ul.hide {
   margin-bottom: 2rem;
   align-items: left;
 }
+.home7 {
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  justify-items: center;
+  justify-content: center;
+}
+.home8 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.home8 h3 {
+  color: var(--four-color);
+  text-align: center;
+}
+.home8 h1 {
+  text-align: center;
+}
+.home7 img {
+  width: 100%;
+}
+.home7 {
+  background-color: var(--first-color);
+}
 .home-local2 {
   padding: 2rem;
   max-width: 1000px;

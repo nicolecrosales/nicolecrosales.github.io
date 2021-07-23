@@ -111,6 +111,10 @@
   .dic section p {
     grid-column: 2/3;
   }
+  .home7 {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
 
   /*-------------------*/
   .home-callaction {

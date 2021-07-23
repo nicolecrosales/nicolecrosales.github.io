@@ -138,6 +138,36 @@ nav ul.hide {
   margin-bottom: 2rem;
   align-items: left;
 }
+.home4 {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: left;
+}
+.home5 {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: left;
+}
+.but {
+  color: white;
+  background-color: var(--first-color);
+  padding: 1rem 2rem;
+  max-width: 25%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+}
 .home3 h3 {
   color: var(--two-color);
   padding-bottom: 1rem;
@@ -145,9 +175,7 @@ nav ul.hide {
 .home p {
   line-height: 20px;
 }
-main #city1 {
-  margin-top: -3rem;
-}
+
 .home2 {
   padding: 2rem;
   max-width: 1000px;
@@ -278,7 +306,8 @@ main .home-local-main2 {
 }
 .home-local,
 .home-weather,
-.preevents {
+.preevents,
+.dic {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
@@ -286,7 +315,8 @@ main .home-local-main2 {
   margin: 0 auto;
 }
 .home-local section,
-.events section {
+.events section,
+.dic section {
   text-align: center;
   box-shadow: 5px 10px 5px #1f2136;
   background-color: var(--first-color);
@@ -296,11 +326,27 @@ main .home-local-main2 {
   grid-template-columns: 1fr;
   width: 100%;
 }
+.dic h1 {
+  padding-bottom: 1rem;
+}
 .home-local section img {
   width: 90%;
   height: 120px;
   margin: 1rem;
 }
+.dic section img {
+  width: 50%;
+  height: 150px;
+  margin: 2rem 0 1rem 4rem;
+}
+.dic section h2 {
+  color: var(--four-color);
+}
+.dic section p {
+  color: white;
+  padding-bottom: 1rem;
+}
+
 .events h1 {
   color: white;
   padding-bottom: 1rem;
@@ -322,10 +368,6 @@ main .home-local-main2 {
   padding-bottom: 1rem;
 }
 
-.home-local img {
-  width: 90%;
-  padding-bottom: 0.5rem;
-}
 /*-------weather-----*/
 .main-content-section1-weathersummary {
   background: var(--six-color);
@@ -555,24 +597,38 @@ main .home-local-main2 {
   background-color: var(--four-color);
   color: var(--first-color);
 } /*--------------------------------------JOIN--------------------------------------*/
-form {
+form.form1 {
   background-color: var(--first-color);
   border-radius: 3px;
   padding: 2rem;
 }
 form.form2 {
-  padding: 2rem 0;
+  border-radius: 3px;
+  background-color: var(--six-color);
+  padding: 1rem;
+  height: 95%;
 }
-.member {
+
+form.form2 legend {
+  color: white;
+}
+form.fomr2 iframe {
+  width: 100%;
+}
+.form1 .member {
   padding-bottom: 1rem;
 }
 label {
   color: white;
 }
 
-.mainmargin {
+.form1 .mainmargin {
   display: block;
   padding-bottom: 1.5rem;
+}
+.form2 .mainmargin {
+  display: block;
+  padding-bottom: 1rem;
 }
 input,
 textarea,
@@ -591,24 +647,36 @@ textarea:focus {
 textarea {
   vertical-align: top;
 }
-.button {
+.form1 .button {
   color: black;
   padding: 1em 2em 1em 2em;
   background-color: var(--four-color);
   border-radius: 50px;
   border: solid 2px var(--four-color);
+  font-weight: 600;
 }
-.button:hover {
+.form2 .button {
+  color: white;
+  padding: 1em 2em 1em 2em;
+  background-color: var(--first-color);
+  border-radius: 50px;
+  border: solid 2px var(--first-color);
+  font-weight: 600;
+}
+.form1 .button:hover {
   background-color: var(--six-color);
   border: solid 2px var(--six-color);
   color: white;
+}
+.form2 .button:hover {
+  background-color: var(--five-color);
+  border: solid 2px var(--five-color);
 }
 .main-stormcenter-1field,
 .buttongrid,
 .main-stormcenter-opinio-grid {
   padding: 1.5rem 0rem;
 }
-
 .main-stormcenter-stormreport-rate-ranges {
   width: 90%;
 }
@@ -625,27 +693,18 @@ textarea {
   padding-top: 1rem;
 }
 /*-------------------------------------------CONTACT-------------------*/
-.myform {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-right: 1rem;
+.home4 .contactc {
+  background-color: var(--four-color);
+  padding: 1rem;
 }
-.myform form {
-  background-color: white;
+.contactc h3 {
+  padding-bottom: 2rem;
 }
-.myform form label,
-.myform form input,
-.myform form p {
-  color: black;
+.contactc iframe {
+  padding-bottom: 2rem;
 }
-.myform h2 {
-  text-align: center;
-}
-.myform p {
-  text-align: center;
-}
-.myform form legend {
-  color: var(--first-color);
+.contactc p {
+  padding-bottom: 1rem;
 }
 /*-------------------------------Footer--------------------------------------------*/
 .footer1 {
@@ -662,6 +721,9 @@ textarea {
   padding-bottom: 0.4rem;
 }
 .footer1 .contact p img {
+  width: 1rem;
+}
+.home4 .contactc p img {
   width: 1rem;
 }
 .footer1 .contact h3,

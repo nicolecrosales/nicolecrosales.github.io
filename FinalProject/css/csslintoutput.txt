@@ -1,0 +1,1016 @@
+
+
+csslint: There are 203 problems in C:\Users\Usuario\Documents\CARPETA_NICOLE\BYU\nicolecrosales.github.io\FinalProject\css\small.css.
+
+small.css
+1: warning at line 1, col 1
+Rule is empty.
+:root {
+
+small.css
+2: error at line 2, col 3
+Expected RBRACE at line 2, col 3.
+  --first-color: rgb(18, 38, 58);
+
+small.css
+3: error at line 3, col 3
+Expected RBRACE at line 3, col 3.
+  --two-color: #b0413e;
+
+small.css
+4: error at line 4, col 3
+Expected RBRACE at line 4, col 3.
+  --three-color: #c4d7f2;
+
+small.css
+5: error at line 5, col 3
+Expected RBRACE at line 5, col 3.
+  --four-color: #f6ce3c;
+
+small.css
+6: error at line 6, col 3
+Expected RBRACE at line 6, col 3.
+  --five-color: #336699;
+
+small.css
+7: error at line 7, col 3
+Expected RBRACE at line 7, col 3.
+  --six-color: #2b3964;
+
+small.css
+8: error at line 8, col 3
+Expected RBRACE at line 8, col 3.
+  --seven-color: #979690;
+
+small.css
+9: warning at line 17, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+10: warning at line 19, col 1
+Rule doesn't have all its properties in alphabetical order.
+h1 {
+
+small.css
+11: warning at line 24, col 1
+Heading (h2) has already been defined.
+h2 {
+
+small.css
+12: warning at line 24, col 1
+Rule doesn't have all its properties in alphabetical order.
+h2 {
+
+small.css
+13: warning at line 29, col 1
+Heading (h3) has already been defined.
+h3,
+
+small.css
+14: warning at line 34, col 1
+Heading (h4) has already been defined.
+h4 {
+
+small.css
+15: warning at line 49, col 1
+Rule doesn't have all its properties in alphabetical order.
+header {
+
+small.css
+16: warning at line 59, col 8
+Heading (h1) should not be qualified.
+header h1 {
+
+small.css
+17: warning at line 59, col 8
+Heading (h1) has already been defined.
+header h1 {
+
+small.css
+18: warning at line 62, col 1
+Rule doesn't have all its properties in alphabetical order.
+.navigation-and-logo {
+
+small.css
+19: error at line 64, col 26
+Unexpected token '1fr' at line 64, col 26.
+  grid-template-columns: 1fr 1fr;
+
+small.css
+20: warning at line 65, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+21: warning at line 67, col 3
+Unknown property 'justify-items'.
+  justify-items: center;
+
+small.css
+22: warning at line 72, col 1
+Rule doesn't have all its properties in alphabetical order.
+.navigation-and-logo a.logo-link img {
+
+small.css
+23: warning at line 72, col 22
+Element (a.logo-link) is overqualified, just use .logo-link without element name.
+.navigation-and-logo a.logo-link img {
+
+small.css
+24: warning at line 78, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav button {
+
+small.css
+25: warning at line 85, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul {
+
+small.css
+26: warning at line 94, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul li a {
+
+small.css
+27: warning at line 102, col 3
+Expected (<color>) but found 'var(--five-color)'.
+  background-color: var(--five-color);
+
+small.css
+28: warning at line 106, col 8
+Element (li.active) is overqualified, just use .active without element name.
+nav ul li.active a {
+
+small.css
+29: warning at line 107, col 3
+Expected (<color>) but found 'var(--five-color)'.
+  background-color: var(--five-color);
+
+small.css
+30: warning at line 114, col 1
+Rule doesn't have all its properties in alphabetical order.
+.clearfix:after {
+
+small.css
+31: warning at line 121, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home1 {
+
+small.css
+32: error at line 126, col 26
+Unexpected token '1fr' at line 126, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+33: warning at line 127, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+34: warning at line 131, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home3 {
+
+small.css
+35: error at line 136, col 26
+Unexpected token '1fr' at line 136, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+36: warning at line 137, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+37: warning at line 140, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home4 {
+
+small.css
+38: error at line 145, col 26
+Unexpected token '1fr' at line 145, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+39: warning at line 146, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+40: warning at line 149, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home5 {
+
+small.css
+41: error at line 154, col 26
+Unexpected token '1fr' at line 154, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+42: warning at line 155, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+43: warning at line 158, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home7 {
+
+small.css
+44: error at line 162, col 26
+Unexpected token '1fr' at line 162, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+45: warning at line 163, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+46: warning at line 165, col 3
+Unknown property 'justify-items'.
+  justify-items: center;
+
+small.css
+47: warning at line 168, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home8 {
+
+small.css
+48: warning at line 172, col 8
+Heading (h3) should not be qualified.
+.home8 h3 {
+
+small.css
+49: warning at line 172, col 8
+Heading (h3) has already been defined.
+.home8 h3 {
+
+small.css
+50: warning at line 173, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+51: warning at line 176, col 8
+Heading (h1) should not be qualified.
+.home8 h1 {
+
+small.css
+52: warning at line 176, col 8
+Heading (h1) has already been defined.
+.home8 h1 {
+
+small.css
+53: warning at line 183, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+54: warning at line 185, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local2 {
+
+small.css
+55: error at line 190, col 26
+Unexpected token '1fr' at line 190, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+56: warning at line 191, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+57: warning at line 196, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local2 section img {
+
+small.css
+58: warning at line 200, col 22
+Heading (h2) should not be qualified.
+.home-local2 section h2 {
+
+small.css
+59: warning at line 200, col 22
+Heading (h2) has already been defined.
+.home-local2 section h2 {
+
+small.css
+60: warning at line 206, col 1
+Rule doesn't have all its properties in alphabetical order.
+.but {
+
+small.css
+61: warning at line 208, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+62: warning at line 216, col 8
+Heading (h3) should not be qualified.
+.home3 h3 {
+
+small.css
+63: warning at line 216, col 8
+Heading (h3) has already been defined.
+.home3 h3 {
+
+small.css
+64: warning at line 217, col 3
+Expected (<color>) but found 'var(--two-color)'.
+  color: var(--two-color);
+
+small.css
+65: warning at line 224, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home2 {
+
+small.css
+66: error at line 229, col 26
+Unexpected token '1fr' at line 229, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+67: warning at line 230, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+68: warning at line 244, col 15
+Heading (h2) should not be qualified.
+.home-weather h2 {
+
+small.css
+69: warning at line 244, col 15
+Heading (h2) has already been defined.
+.home-weather h2 {
+
+small.css
+70: warning at line 247, col 1
+Rule doesn't have all its properties in alphabetical order.
+.gridback {
+
+small.css
+71: warning at line 248, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+72: warning at line 253, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  background-color: var(--four-color);
+
+small.css
+73: warning at line 257, col 1
+Rule doesn't have all its properties in alphabetical order.
+.ventana {
+
+small.css
+74: warning at line 258, col 3
+Expected (<color>) but found 'rgb(18 , 38 , 58 , 0.5)'.
+  background-color: rgb(18, 38, 58, 0.5);
+
+small.css
+75: warning at line 273, col 3
+Rule doesn't have all its properties in alphabetical order.
+  100% {
+
+small.css
+76: warning at line 279, col 10
+Heading (h4) should not be qualified.
+.ventana h4 {
+
+small.css
+77: warning at line 279, col 10
+Heading (h4) has already been defined.
+.ventana h4 {
+
+small.css
+78: warning at line 288, col 10
+Heading (h4) should not be qualified.
+.ventana h4 {
+
+small.css
+79: warning at line 288, col 10
+Heading (h4) has already been defined.
+.ventana h4 {
+
+small.css
+80: warning at line 291, col 10
+Heading (h2) should not be qualified.
+.ventana h2 {
+
+small.css
+81: warning at line 291, col 10
+Heading (h2) has already been defined.
+.ventana h2 {
+
+small.css
+82: warning at line 291, col 1
+Rule doesn't have all its properties in alphabetical order.
+.ventana h2 {
+
+small.css
+83: warning at line 293, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+84: warning at line 296, col 1
+Rule doesn't have all its properties in alphabetical order.
+.ventanagrid {
+
+small.css
+85: error at line 298, col 26
+Unexpected token '1fr' at line 298, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+86: warning at line 299, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+87: warning at line 303, col 3
+Unknown property 'justify-items'.
+  justify-items: center;
+
+small.css
+88: warning at line 304, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+89: warning at line 306, col 10
+Element (div.linksventana) is overqualified, just use .linksventana without element name.
+.ventana div.linksventana {
+
+small.css
+90: warning at line 309, col 1
+Rule doesn't have all its properties in alphabetical order.
+.ventana img {
+
+small.css
+91: warning at line 313, col 1
+Rule doesn't have all its properties in alphabetical order.
+.ventana a {
+
+small.css
+92: warning at line 315, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+93: warning at line 320, col 3
+Expected (<color>) but found 'var(--two-color)'.
+  color: var(--two-color);
+
+small.css
+94: warning at line 323, col 1
+Don't use IDs in selectors.
+#cerrar {
+
+small.css
+95: warning at line 326, col 1
+Don't use IDs in selectors.
+#cerrar + label {
+
+small.css
+96: warning at line 326, col 1
+Rule doesn't have all its properties in alphabetical order.
+#cerrar + label {
+
+small.css
+97: warning at line 329, col 3
+Expected (<color>) but found 'var(--two-color)'.
+  background-color: var(--two-color);
+
+small.css
+98: warning at line 345, col 1
+Don't use IDs in selectors.
+#cerrar:checked + label,
+
+small.css
+99: warning at line 346, col 1
+Don't use IDs in selectors.
+#cerrar:checked ~ .ventana {
+
+small.css
+100: warning at line 351, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+101: warning at line 355, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+102: warning at line 359, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  background-color: var(--four-color);
+
+small.css
+103: warning at line 362, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  background-color: var(--four-color);
+
+small.css
+104: warning at line 365, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local,
+
+small.css
+105: error at line 369, col 26
+Unexpected token '1fr' at line 369, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+106: warning at line 374, col 1
+Rule doesn't have all its properties in alphabetical order.
+.dic {
+
+small.css
+107: error at line 376, col 26
+Unexpected token '1fr' at line 376, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+108: warning at line 380, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local section,
+
+small.css
+109: warning at line 385, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+110: error at line 389, col 26
+Unexpected token '1fr' at line 389, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+111: warning at line 392, col 6
+Heading (h1) should not be qualified.
+.dic h1 {
+
+small.css
+112: warning at line 392, col 6
+Heading (h1) has already been defined.
+.dic h1 {
+
+small.css
+113: warning at line 395, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local section img {
+
+small.css
+114: warning at line 400, col 1
+Rule doesn't have all its properties in alphabetical order.
+.dic section img {
+
+small.css
+115: warning at line 405, col 14
+Heading (h2) should not be qualified.
+.dic section h2 {
+
+small.css
+116: warning at line 405, col 14
+Heading (h2) has already been defined.
+.dic section h2 {
+
+small.css
+117: warning at line 406, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+118: warning at line 413, col 9
+Heading (h1) should not be qualified.
+.events h1 {
+
+small.css
+119: warning at line 413, col 9
+Heading (h1) has already been defined.
+.events h1 {
+
+small.css
+120: warning at line 417, col 21
+Heading (h2) should not be qualified.
+.home-local section h2,
+
+small.css
+121: warning at line 417, col 21
+Heading (h2) has already been defined.
+.home-local section h2,
+
+small.css
+122: warning at line 417, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local section h2,
+
+small.css
+123: warning at line 418, col 17
+Heading (h2) should not be qualified.
+.events section h2 {
+
+small.css
+124: warning at line 418, col 17
+Heading (h2) has already been defined.
+.events section h2 {
+
+small.css
+125: warning at line 419, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+126: warning at line 424, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home-local section p,
+
+small.css
+127: warning at line 426, col 17
+Heading (h4) should not be qualified.
+.events section h4 {
+
+small.css
+128: warning at line 426, col 17
+Heading (h4) has already been defined.
+.events section h4 {
+
+small.css
+129: warning at line 435, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section1-weathersummary {
+
+small.css
+130: warning at line 442, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section1-weathersummary div {
+
+small.css
+131: error at line 445, col 26
+Unexpected token '1fr' at line 445, col 26.
+  grid-template-columns: 1fr 1fr;
+
+small.css
+132: warning at line 448, col 39
+Heading (h3) should not be qualified.
+.main-content-section1-weathersummary h3 {
+
+small.css
+133: warning at line 448, col 39
+Heading (h3) has already been defined.
+.main-content-section1-weathersummary h3 {
+
+small.css
+134: warning at line 448, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section1-weathersummary h3 {
+
+small.css
+135: warning at line 461, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2 {
+
+small.css
+136: warning at line 466, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+137: warning at line 468, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast {
+
+small.css
+138: error at line 473, col 26
+Unexpected token '1fr' at line 473, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+139: warning at line 476, col 38
+Heading (h3) should not be qualified.
+.main-content-section2-5daysforecast h3 {
+
+small.css
+140: warning at line 476, col 38
+Heading (h3) has already been defined.
+.main-content-section2-5daysforecast h3 {
+
+small.css
+141: warning at line 476, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast h3 {
+
+small.css
+142: warning at line 484, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast-content {
+
+small.css
+143: error at line 486, col 26
+Unexpected token '1fr' at line 486, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+144: warning at line 489, col 3
+Unknown property 'justify-items'.
+  justify-items: center;
+
+small.css
+145: warning at line 491, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast-content-grid {
+
+small.css
+146: error at line 493, col 26
+Unexpected token '1fr' at line 493, col 26.
+  grid-template-columns: 1fr 1fr 1fr;
+
+small.css
+147: warning at line 495, col 3
+Unknown property 'justify-items'.
+  justify-items: center;
+
+small.css
+148: warning at line 502, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+149: warning at line 504, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast-content-grid img {
+
+small.css
+150: warning at line 506, col 3
+Expected (<color>) but found 'var(--third-color)'.
+  background-color: var(--third-color);
+
+small.css
+151: warning at line 508, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast-content-grid-day {
+
+small.css
+152: warning at line 513, col 1
+Rule doesn't have all its properties in alphabetical order.
+.main-content-section2-5daysforecast-content-data {
+
+small.css
+153: warning at line 520, col 1
+Don't use IDs in selectors.
+#slider-box2 {
+
+small.css
+154: warning at line 520, col 1
+Rule doesn't have all its properties in alphabetical order.
+#slider-box2 {
+
+small.css
+155: warning at line 535, col 1
+Don't use IDs in selectors.
+#slider-container2 {
+
+small.css
+156: warning at line 535, col 1
+Rule doesn't have all its properties in alphabetical order.
+#slider-container2 {
+
+small.css
+157: warning at line 638, col 1
+2 IDs in the selector, really?
+#slider-container2 #slider-box2 .slider-element2 img {
+
+small.css
+158: warning at line 638, col 1
+Rule doesn't have all its properties in alphabetical order.
+#slider-container2 #slider-box2 .slider-element2 img {
+
+small.css
+159: warning at line 643, col 8
+Element (img.imgcall) is overqualified, just use .imgcall without element name.
+.home1 img.imgcall {
+
+small.css
+160: warning at line 646, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home1 .botones {
+
+small.css
+161: warning at line 650, col 1
+Rule doesn't have all its properties in alphabetical order.
+.home1 .botones a {
+
+small.css
+162: warning at line 654, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+163: warning at line 655, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  color: var(--four-color);
+
+small.css
+164: warning at line 660, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  background-color: var(--four-color);
+
+small.css
+165: warning at line 661, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  color: var(--first-color);
+
+small.css
+166: warning at line 664, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+167: warning at line 668, col 1
+Rule doesn't have all its properties in alphabetical order.
+form.form2 {
+
+small.css
+168: warning at line 670, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+169: warning at line 671, col 3
+Using height with padding can sometimes make elements larger than you expect.
+  padding: 1rem;
+
+small.css
+170: warning at line 678, col 1
+Element (form.fomr2) is overqualified, just use .fomr2 without element name.
+form.fomr2 iframe {
+
+small.css
+171: warning at line 696, col 1
+Rule doesn't have all its properties in alphabetical order.
+input,
+
+small.css
+172: warning at line 701, col 3
+The box-sizing property isn't supported in IE6 and IE7.
+  box-sizing: border-box;
+
+small.css
+173: warning at line 713, col 1
+Rule doesn't have all its properties in alphabetical order.
+.form1 .button {
+
+small.css
+174: warning at line 716, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  background-color: var(--four-color);
+
+small.css
+175: warning at line 718, col 3
+Expected end of value but found 'var(--four-color)'.
+  border: solid 2px var(--four-color);
+
+small.css
+176: warning at line 721, col 1
+Rule doesn't have all its properties in alphabetical order.
+.form2 .button {
+
+small.css
+177: warning at line 724, col 3
+Expected (<color>) but found 'var(--first-color)'.
+  background-color: var(--first-color);
+
+small.css
+178: warning at line 726, col 3
+Expected end of value but found 'var(--first-color)'.
+  border: solid 2px var(--first-color);
+
+small.css
+179: warning at line 730, col 3
+Expected (<color>) but found 'var(--six-color)'.
+  background-color: var(--six-color);
+
+small.css
+180: warning at line 731, col 3
+Expected end of value but found 'var(--six-color)'.
+  border: solid 2px var(--six-color);
+
+small.css
+181: warning at line 735, col 3
+Expected (<color>) but found 'var(--five-color)'.
+  background-color: var(--five-color);
+
+small.css
+182: warning at line 736, col 3
+Expected end of value but found 'var(--five-color)'.
+  border: solid 2px var(--five-color);
+
+small.css
+183: warning at line 741, col 19
+Values of 0 shouldn't have units specified.
+  padding: 1.5rem 0rem;
+
+small.css
+184: warning at line 746, col 1
+Don't use IDs in selectors.
+#ratingvalue {
+
+small.css
+185: warning at line 760, col 3
+Expected (<color>) but found 'var(--four-color)'.
+  background-color: var(--four-color);
+
+small.css
+186: warning at line 763, col 11
+Heading (h3) should not be qualified.
+.contactc h3 {
+
+small.css
+187: warning at line 763, col 11
+Heading (h3) has already been defined.
+.contactc h3 {
+
+small.css
+188: warning at line 773, col 1
+Rule doesn't have all its properties in alphabetical order.
+.footer1 {
+
+small.css
+189: warning at line 774, col 3
+Expected (<color>) but found 'var(--five-color)'.
+  background-color: var(--five-color);
+
+small.css
+190: error at line 777, col 26
+Unexpected token '1fr' at line 777, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+191: warning at line 779, col 3
+Unknown property 'gap'.
+  gap: 2rem;
+
+small.css
+192: warning at line 792, col 19
+Heading (h3) should not be qualified.
+.footer1 .contact h3,
+
+small.css
+193: warning at line 792, col 19
+Heading (h3) has already been defined.
+.footer1 .contact h3,
+
+small.css
+194: warning at line 793, col 19
+Heading (h4) should not be qualified.
+.footer1 .contact h4,
+
+small.css
+195: warning at line 793, col 19
+Heading (h4) has already been defined.
+.footer1 .contact h4,
+
+small.css
+196: warning at line 798, col 3
+Expected (<color>) but found 'var(--seven-color)'.
+  background-color: var(--seven-color);
+
+small.css
+197: warning at line 799, col 3
+Expected (<color>) but found 'var(--five-color)'.
+  color: var(--five-color);
+
+small.css
+198: error at line 805, col 26
+Unexpected token '1fr' at line 805, col 26.
+  grid-template-columns: 1fr;
+
+small.css
+199: warning at line 807, col 1
+Rule doesn't have all its properties in alphabetical order.
+.link .social {
+
+small.css
+200: warning at line 810, col 3
+Unknown property 'gap'.
+  gap: 1rem;
+
+small.css
+201: warning at line 817, col 1
+Rule doesn't have all its properties in alphabetical order.
+footer iframe {
+
+small.css
+202: warning
+Too many font-size declarations (13), abstraction needed.
+
+small.css
+203: warning
+You have 5 h1s, 8 h2s, 8 h3s, 6 h4s defined in this stylesheet.

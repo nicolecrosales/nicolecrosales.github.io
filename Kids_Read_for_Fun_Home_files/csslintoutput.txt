@@ -1,0 +1,107 @@
+
+
+csslint: There are 21 problems in C:\Users\Usuario\Documents\CARPETA_NICOLE\BYU\CSSAdvannced\Assignment\Kids_Read_for_Fun_Home_files\main.css.
+
+main.css
+1: warning at line 1, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap");
+
+main.css
+2: warning at line 2, col 1
+Rule doesn't have all its properties in alphabetical order.
+body {
+
+main.css
+3: warning at line 24, col 1
+Rule doesn't have all its properties in alphabetical order.
+h1 a {
+
+main.css
+4: warning at line 36, col 1
+Rule doesn't have all its properties in alphabetical order.
+h1 a:hover {
+
+main.css
+5: warning at line 49, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul {
+
+main.css
+6: warning at line 56, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul li a {
+
+main.css
+7: warning at line 68, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul li a:hover {
+
+main.css
+8: warning at line 88, col 1
+Rule doesn't have all its properties in alphabetical order.
+main a {
+
+main.css
+9: warning at line 100, col 1
+Rule doesn't have all its properties in alphabetical order.
+main a:hover {
+
+main.css
+10: warning at line 110, col 1
+Rule doesn't have all its properties in alphabetical order.
+article {
+
+main.css
+11: warning at line 115, col 9
+Heading (h2) should not be qualified.
+article h2 {
+
+main.css
+12: warning at line 119, col 9
+Heading (h2) should not be qualified.
+article h2 a {
+
+main.css
+13: warning at line 119, col 1
+Rule doesn't have all its properties in alphabetical order.
+article h2 a {
+
+main.css
+14: warning at line 125, col 9
+Heading (h2) should not be qualified.
+article h2 a:visited {
+
+main.css
+15: warning at line 128, col 9
+Heading (h2) should not be qualified.
+article h2 a:active {
+
+main.css
+16: warning at line 131, col 9
+Heading (h2) should not be qualified.
+article h2 a:hover {
+
+main.css
+17: warning at line 131, col 1
+Rule doesn't have all its properties in alphabetical order.
+article h2 a:hover {
+
+main.css
+18: warning at line 136, col 11
+Heading (h2) should not be qualified.
+  article h2 a {
+
+main.css
+19: warning at line 140, col 1
+Rule doesn't have all its properties in alphabetical order.
+article p {
+
+main.css
+20: warning at line 150, col 1
+Rule doesn't have all its properties in alphabetical order.
+article img {
+
+main.css
+21: warning
+Too many font-size declarations (10), abstraction needed.

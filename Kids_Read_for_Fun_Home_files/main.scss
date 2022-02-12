@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap");
+$the-blue-color: #6495ed;
+$font-body-copy: Helvetica, Arial, sans-serif;
+$font-size-large: 100%;
+$font-size-small: 95%;
+$font-heading: "Lora", serif;
+$color-for-backgroundmain-and-textonbluesidebar: #faebd7;
+$color-for-active: #deb887;
+$main-color: black;
+
+@mixin images {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+@mixin format(
+  $normalcolor,
+  $fontfamily,
+  $visitedcolor,
+  $activecolor,
+  $hovercolor: $normalcolor
+) {
+  text-decoration: none;
+  color: $normalcolor;
+  font-family: $fontfamily;
+  font-size: $font-size-small;
+  &:visited {
+    color: $visitedcolor;
+  }
+  &:active {
+    color: $activecolor;
+  }
+  &:hover {
+    text-decoration: underline;
+    color: $hovercolor;
+  }
+}
+@mixin paddingandmarginzero {
+  padding: 0;
+  margin: 0;
+}
+
+$break-large: 600px;
+
+@mixin breakpoint($break) {
+  @if $break == large {
+    @media screen and (min-width: $break-large) {
+      @content;
+    }
+  }
+}
+body {
+  @include paddingandmarginzero;
+  div {
+    @include breakpoint(large) {
+      display: grid;
+      grid-template-columns: 30% 70%;
+    }
+  }
+}
+header {
+  background-color: $the-blue-color;
+  padding: 2rem;
+  text-align: right;
+  @include breakpoint(large) {
+    grid-column: 1/2;
+  }
+}
+h1 {
+  a {
+    @include format(
+      $color-for-backgroundmain-and-textonbluesidebar,
+      $font-heading,
+      $color-for-backgroundmain-and-textonbluesidebar,
+      $color-for-active
+    );
+    @include breakpoint(large) {
+      font-size: $font-size-large;
+    }
+  }
+}
+nav {
+  background-color: $the-blue-color;
+  ul {
+    list-style: none;
+    display: block;
+    li {
+      margin-bottom: 0.5rem;
+      a {
+        @include format(
+          $color-for-backgroundmain-and-textonbluesidebar,
+          $font-body-copy,
+          $color-for-backgroundmain-and-textonbluesidebar,
+          $color-for-active
+        );
+        @include breakpoint(large) {
+          font-size: $font-size-large;
+        }
+      }
+    }
+  }
+}
+main {
+  background-color: $color-for-backgroundmain-and-textonbluesidebar;
+  padding: 1rem;
+  @include breakpoint(large) {
+    grid-column: 2/3;
+    padding: 3rem;
+  }
+  a {
+    @include format(
+      $the-blue-color,
+      $font-body-copy,
+      $the-blue-color,
+      $color-for-active
+    );
+    @include breakpoint(large) {
+      font-size: $font-size-large;
+    }
+  }
+}
+article {
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  h2 {
+    margin-bottom: 4rem;
+    margin-top: 0;
+    a {
+      @include format(
+        $main-color,
+        $font-heading,
+        $main-color,
+        $color-for-active,
+        $the-blue-color
+      );
+      @include breakpoint(large) {
+        font-size: $font-size-large;
+      }
+    }
+  }
+  p {
+    font-family: $font-body-copy;
+    font-size: $font-size-small;
+    color: $main-color;
+    @include breakpoint(large) {
+      font-size: $font-size-large;
+    }
+  }
+  img {
+    @include images;
+  }
+}
